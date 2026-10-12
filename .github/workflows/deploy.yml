@@ -48,6 +48,20 @@ jobs:
             exit 1
           fi
 
+      - name: Build VI/EN/ZH portfolio
+        run: |
+          python3 scripts/build_pages_i18n.py dist
+          node i18n/build_i18n.js dist/site-untranslated.html dist/index.html
+          rm dist/site-untranslated.html
+
+      - name: Validate language versions
+        run: |
+          grep -q 'id="lang-switch"' dist/index.html
+          grep -q 'id="app-vi"' dist/index.html
+          grep -q 'id="app-en"' dist/index.html
+          grep -q 'id="app-zh"' dist/index.html
+          grep -q '/my-portfolio/assets/' dist/index.html
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
