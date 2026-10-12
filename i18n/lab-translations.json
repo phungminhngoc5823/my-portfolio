@@ -1,0 +1,1326 @@
+{
+  "Một không gian tương tác để khám phá cách tôi ứng dụng AI, dữ liệu và tự động hóa vào những bài toán Marketing thực tế.": [
+    "An interactive space to explore how I apply AI, data and automation to real Marketing problems.",
+    "一个可交互的空间，用来探索我如何把 AI、数据和自动化应用到真实的营销问题上。"
+  ],
+  "Assessment → báo cáo tổng quan": [
+    "Assessment → overview report",
+    "评估 → 总览报告"
+  ],
+  "Yêu cầu → AI → workflow thật": [
+    "Request → AI → a real workflow",
+    "需求 → AI → 真实工作流"
+  ],
+  "Chatbot → hệ thống AI phía sau": [
+    "Chatbot → the AI system behind it",
+    "聊天机器人 → 背后的 AI 系统"
+  ],
+  "Chọn một hệ thống để trải nghiệm · Mỗi trải nghiệm bắt đầu từ bài toán thực tế, sau đó mới mở sâu vào logic hệ thống.": [
+    "Choose a system to try · Each experience starts from a real problem, and only then goes deep into the system's logic.",
+    "选择一个系统来体验 · 每个体验都从真实问题出发，然后才深入系统逻辑。"
+  ],
+  "Phiên bản rút gọn của trải nghiệm đánh giá mức độ sẵn sàng AI dành cho doanh nghiệp.": [
+    "A condensed version of the AI-readiness assessment experience for businesses.",
+    "面向企业的 AI 准备度评估体验的精简版本。"
+  ],
+  "Phần tôi tham gia": [
+    "My part",
+    "我的部分"
+  ],
+  "Trực quan hóa khảo sát/báo cáo và chuẩn bị nội dung bàn giao, phân phối.": [
+    "Visualizing the survey and report, and preparing material for handover and distribution.",
+    "把问卷和报告可视化，并准备用于交付和分发的内容。"
+  ],
+  "Dựa trên project thật": [
+    "Based on a real project",
+    "基于真实项目"
+  ],
+  "Xem báo cáo mẫu": [
+    "View a sample report",
+    "查看示例报告"
+  ],
+  "Đánh giá mức độ sẵn sàng AI & Automation": [
+    "AI & Automation readiness assessment",
+    "AI 与自动化准备度评估"
+  ],
+  "Thông tin doanh nghiệp": [
+    "Business information",
+    "企业信息"
+  ],
+  "Nền tảng & Năng lực số": [
+    "Foundations & digital capability",
+    "基础与数字能力"
+  ],
+  "Đặc thù theo quy mô": [
+    "Size-specific factors",
+    "与规模相关的特点"
+  ],
+  "Rào cản & Ưu tiên": [
+    "Barriers & priorities",
+    "障碍与优先事项"
+  ],
+  "Bước 1/4": [
+    "Step 1/4",
+    "第 1/4 步"
+  ],
+  "Kết quả bạn sẽ nhận được": [
+    "What you will get",
+    "你将得到的结果"
+  ],
+  "Từ câu trả lời đến một snapshot có thể hành động.": [
+    "From answers to an actionable snapshot.",
+    "从回答到可执行的快照。"
+  ],
+  "Sau 4 bước, hệ thống tổng hợp mức độ trưởng thành AI, bức tranh năng lực và các ưu tiên tiếp theo.": [
+    "After 4 steps, the system summarizes your AI maturity level, capability picture and next priorities.",
+    "完成 4 步后，系统会汇总你的 AI 成熟度、能力全貌和后续优先事项。"
+  ],
+  "Mức độ trưởng thành": [
+    "Maturity level",
+    "成熟度等级"
+  ],
+  "4 level từ Khởi đầu đến Dẫn dắt bởi Dữ liệu.": [
+    "4 levels, from Reactive to Data-Driven.",
+    "共 4 个等级，从“起步”到“数据驱动”。"
+  ],
+  "6 nhóm năng lực": [
+    "6 capability groups",
+    "6 个能力维度"
+  ],
+  "Nhìn nhanh điểm mạnh và khoảng trống theo từng nhóm.": [
+    "A quick view of strengths and gaps in each group.",
+    "快速查看每个维度的优势与差距。"
+  ],
+  "Ưu tiên hành động": [
+    "Priority actions",
+    "优先行动"
+  ],
+  "Gợi ý các bước nên tập trung trước trong giai đoạn tiếp theo.": [
+    "Suggestions on which steps to focus on first in the next phase.",
+    "建议下一阶段应优先聚焦的步骤。"
+  ],
+  "Công thức chấm điểm gốc không được đưa vào bản demo.": [
+    "The original scoring formula is not included in the demo.",
+    "演示版本不包含原始评分公式。"
+  ],
+  "Từ yêu cầu truyền thông đến tạo nội dung, đăng tải và xử lý sau đăng — được tái dựng từ workflow vận hành thực tế.": [
+    "From a communications request to content creation, posting and post-publishing handling — rebuilt from the real operating workflow.",
+    "从传播需求到内容生成、发布和发布后处理——依据真实运营工作流重新还原。"
+  ],
+  "Xây dựng logic tạo nội dung đa kênh và luồng tự động hóa đăng/sửa bài, Top Comment.": [
+    "Building the multi-channel content logic and the automated flows for posting/editing and Top Comment.",
+    "搭建多渠道内容生成逻辑，以及自动发布/修改帖子和置顶评论的自动化流程。"
+  ],
+  "Dựa trên workflow thật": [
+    "Based on a real workflow",
+    "基于真实工作流"
+  ],
+  "Xem workflow thực tế": [
+    "View the real workflow",
+    "查看真实工作流"
+  ],
+  "1 · Tạo yêu cầu": [
+    "1 · Create a request",
+    "1 · 创建需求"
+  ],
+  "2 · Kết quả AI": [
+    "2 · AI output",
+    "2 · AI 输出"
+  ],
+  "3 · Quy trình đăng tải": [
+    "3 · Posting process",
+    "3 · 发布流程"
+  ],
+  "Luồng vận hành chính": [
+    "Main operating flow",
+    "主要运营流程"
+  ],
+  "01 · Tạo nội dung theo từng kênh": [
+    "01 · Create content for each channel",
+    "01 · 按渠道生成内容"
+  ],
+  "AI xử lý một yêu cầu và tạo nội dung riêng theo insight của Facebook, TikTok và Zalo OA.": [
+    "AI processes one request and creates separate content based on Facebook, TikTok and Zalo OA insights.",
+    "AI 处理一条需求，并根据 Facebook、TikTok 和 Zalo OA 的洞察分别生成内容。"
+  ],
+  "02 · Đăng tải": [
+    "02 · Posting",
+    "02 · 发布"
+  ],
+  "Dữ liệu được chuyển tới workflow tương ứng theo điểm đến.": [
+    "Data is routed to the matching workflow according to the destination.",
+    "数据会按发布目的地被分发到对应的工作流。"
+  ],
+  "03 · Sau đăng": [
+    "03 · After posting",
+    "03 · 发布之后"
+  ],
+  "Hỗ trợ sửa bài và thêm Top Comment khi cần.": [
+    "Supports editing posts and adding a Top Comment when needed.",
+    "需要时支持修改帖子并添加置顶评论。"
+  ],
+  "fanpages trong phạm vi triển khai posting/edit workflow.": [
+    "fanpages within the scope of the posting/edit workflow.",
+    "个粉丝页在发布/修改工作流的覆盖范围内。"
+  ],
+  "Workflow thực tế": [
+    "Real workflows",
+    "真实工作流"
+  ],
+  "Chọn từng luồng để xem trực tiếp scenario Make.com đã triển khai.": [
+    "Pick a flow to view the Make.com scenario that was actually deployed.",
+    "选择一条流程，直接查看已实际部署的 Make.com 场景。"
+  ],
+  "Tạo nội dung": [
+    "Create content",
+    "生成内容"
+  ],
+  "Đăng tải": [
+    "Posting",
+    "发布"
+  ],
+  "Sửa bài & Top comment": [
+    "Edit post & Top comment",
+    "修改帖子与置顶评论"
+  ],
+  "Phóng to ↗": [
+    "Zoom in ↗",
+    "放大 ↗"
+  ],
+  "Workflow Make.com thực tế": [
+    "The real Make.com workflow",
+    "真实的 Make.com 工作流"
+  ],
+  "Dựng lại từ các scenario Make.com đã triển khai.": [
+    "Rebuilt from the Make.com scenarios that were deployed.",
+    "根据已部署的 Make.com 场景重新还原。"
+  ],
+  "L1 đánh giá độ phù hợp của hồ sơ lead; L2 bổ sung nhu cầu và tín hiệu Sales để xác định mức ưu tiên.": [
+    "L1 assesses how well a lead's profile fits; L2 adds needs and Sales signals to set the priority level.",
+    "L1 评估线索资料的匹配程度；L2 补充需求和销售信号，以确定优先级。"
+  ],
+  "Nghiên cứu ICP, theo dõi dữ liệu và hỗ trợ cập nhật logic chấm điểm, demo form.": [
+    "ICP research, data tracking, and support in updating the scoring logic and the demo form.",
+    "ICP 研究、数据跟踪，以及协助更新评分逻辑和演示表单。"
+  ],
+  "Dựa trên research và scoring support thật": [
+    "Based on real research and scoring support",
+    "基于真实的研究与评分支持工作"
+  ],
+  "1 · Độ phù hợp hồ sơ": [
+    "1 · Profile fit",
+    "1 · 资料匹配度"
+  ],
+  "2 · Nhu cầu & tín hiệu Sales": [
+    "2 · Needs & Sales signals",
+    "2 · 需求与销售信号"
+  ],
+  "3 · Ưu tiên & phân luồng": [
+    "3 · Priority & routing",
+    "3 · 优先级与分流"
+  ],
+  "Điểm số / Hành động": [
+    "Score / Action",
+    "分数 / 行动"
+  ],
+  "kiểm tra độ phù hợp hồ sơ.": [
+    "checks how well the lead's profile fits.",
+    "检查线索资料的匹配程度。"
+  ],
+  "bổ sung bài toán và tín hiệu Sales để xác định mức ưu tiên.": [
+    "adds the problem and Sales signals to set the priority level.",
+    "补充问题和销售信号，以确定优先级。"
+  ],
+  "Thông tin lead": [
+    "Lead information",
+    "线索信息"
+  ],
+  "Chức vụ": [
+    "Job title",
+    "职位"
+  ],
+  "Giám đốc / CEO": [
+    "Director / CEO",
+    "总监 / CEO"
+  ],
+  "Lĩnh vực": [
+    "Industry",
+    "行业"
+  ],
+  "Sản xuất": [
+    "Manufacturing",
+    "制造业"
+  ],
+  "Dịch vụ B2B": [
+    "B2B services",
+    "B2B 服务"
+  ],
+  "Khác": [
+    "Other",
+    "其他"
+  ],
+  "Quy mô": [
+    "Size",
+    "规模"
+  ],
+  "Bài toán chính": [
+    "Main problem",
+    "主要问题"
+  ],
+  "Quy trình thủ công / khó theo dõi": [
+    "Manual / hard-to-track processes",
+    "手工、难以跟踪的流程"
+  ],
+  "Quản trị nhân sự phân tán": [
+    "Fragmented HR management",
+    "人事管理分散"
+  ],
+  "CRM / bán hàng chưa đồng bộ": [
+    "CRM / sales not in sync",
+    "CRM 与销售未同步"
+  ],
+  "Trạng thái Sales": [
+    "Sales status",
+    "销售状态"
+  ],
+  "Đã yêu cầu tư vấn / demo": [
+    "Requested a consultation / demo",
+    "已申请咨询 / 演示"
+  ],
+  "Đang tìm hiểu": [
+    "Exploring",
+    "了解中"
+  ],
+  "Chưa có nhu cầu rõ": [
+    "No clear need yet",
+    "暂无明确需求"
+  ],
+  "Tính điểm ICP L1 →": [
+    "Calculate ICP L1 score →",
+    "计算 ICP L1 分数 →"
+  ],
+  "Chưa có kết quả đánh giá": [
+    "No assessment result yet",
+    "暂无评估结果"
+  ],
+  "Chọn thông tin lead và bấm “Tính điểm ICP L1” để xem điểm, mức độ phù hợp và bước tiếp theo.": [
+    "Choose the lead information and click “Calculate ICP L1 score” to see the score, the level of fit and the next step.",
+    "选择线索信息并点击“计算 ICP L1 分数”，即可查看分数、匹配程度和下一步。"
+  ],
+  "Kết quả ICP Level 1": [
+    "ICP Level 1 result",
+    "ICP 一级结果"
+  ],
+  "Kết quả sẽ hiển thị sau khi tính điểm.": [
+    "The result will appear after the score is calculated.",
+    "计算分数后将显示结果。"
+  ],
+  "Hướng xử lý đề xuất": [
+    "Suggested handling",
+    "建议处理方式"
+  ],
+  "Bản demo không dùng trọng số chấm điểm thật và không chứa dữ liệu ICP nội bộ.": [
+    "The demo does not use the real scoring weights and contains no internal ICP data.",
+    "演示版本不使用真实评分权重，也不包含内部 ICP 数据。"
+  ],
+  "Trải nghiệm 1AI và xem cách prompt, knowledge retrieval và logic hội thoại phối hợp phía sau mỗi câu trả lời.": [
+    "Try 1AI and see how the prompt, knowledge retrieval and conversation logic work together behind each answer.",
+    "体验 1AI，看看提示词、知识检索和对话逻辑如何在每个回答的背后协同工作。"
+  ],
+  "Thiết kế prompt, tổng hợp tài liệu sản phẩm có sẵn thành knowledge base, và xây dựng các luồng hội thoại cho 1AI — chatbot khách hàng hiện đang vận hành trên website chính thức của 1Office.": [
+    "Designing the prompt, consolidating existing product documents into a knowledge base, and building the conversation flows for 1AI — the customer chatbot now running on 1Office's official website.",
+    "设计提示词，把现有产品资料整合成知识库，并为 1AI 搭建对话流程——1AI 是目前运行在 1Office 官方网站上的客户聊天机器人。"
+  ],
+  "Dựa trên hệ thống AI thật": [
+    "Based on a real AI system",
+    "基于真实的 AI 系统"
+  ],
+  "1AI — Trợ lý ảo 1Office": [
+    "1AI — 1Office virtual assistant",
+    "1AI — 1Office 虚拟助手"
+  ],
+  "Đang hoạt động": [
+    "Online",
+    "在线"
+  ],
+  "👋 Chào mừng bạn đến với": [
+    "👋 Welcome to",
+    "👋 欢迎来到"
+  ],
+  "Tôi là trợ lý 1AI — sẵn sàng giải đáp câu hỏi về tính năng & giải pháp, bảng giá, demo và HDSD.": [
+    "I'm the 1AI assistant — ready to answer questions about features & solutions, pricing, demos and user guides.",
+    "我是 1AI 助手——可以解答关于功能与解决方案、价格、演示和使用指南的问题。"
+  ],
+  "Đặt lịch demo miễn phí": [
+    "Book a free demo",
+    "预约免费演示"
+  ],
+  "Tư vấn giải pháp": [
+    "Solution consultation",
+    "方案咨询"
+  ],
+  "Bảng giá": [
+    "Pricing",
+    "价格"
+  ],
+  "HDSD phần mềm": [
+    "Software user guide",
+    "软件使用指南"
+  ],
+  "Thử nhanh luồng HDSD": [
+    "Try the user-guide flow",
+    "快速试用使用指南流程"
+  ],
+  "Xem cách 1AI tra cứu hướng dẫn hoặc dẫn người dùng tới luồng tạo Ticket.": [
+    "See how 1AI looks up guidance or leads users to the Ticket-creation flow.",
+    "看看 1AI 如何查找指南，或把用户引导到创建工单（Ticket）的流程。"
+  ],
+  "Trải nghiệm": [
+    "Experience",
+    "体验"
+  ],
+  "Bản demo mô phỏng vài tình huống tiêu biểu, không kết nối với chatbot đang chạy thật.": [
+    "The demo simulates a few typical situations and is not connected to the chatbot that is actually running.",
+    "演示模拟了几种典型情境，并未连接到实际运行中的聊天机器人。"
+  ],
+  "Viết tin nhắn...": [
+    "Type a message...",
+    "输入消息……"
+  ],
+  "Nhập câu hỏi cho 1AI": [
+    "Type a question for 1AI",
+    "向 1AI 输入问题"
+  ],
+  "Gửi tin nhắn": [
+    "Send message",
+    "发送消息"
+  ],
+  "1AI hoạt động như thế nào": [
+    "How 1AI works",
+    "1AI 如何运作"
+  ],
+  "Hội thoại phía trước. Hệ thống AI vận hành phía sau.": [
+    "The conversation is in front. The AI system runs behind it.",
+    "对话在前台，AI 系统在背后运行。"
+  ],
+  "Luồng xử lý theo tình huống": [
+    "Processing flow by situation",
+    "按情境划分的处理流程"
+  ],
+  "Chọn một tình huống bên trái để xem 1AI xử lý yêu cầu như thế nào.": [
+    "Choose a situation on the left to see how 1AI handles the request.",
+    "在左侧选择一个情境，查看 1AI 如何处理请求。"
+  ],
+  "Ý định · Intent": [
+    "Intent",
+    "意图 · Intent"
+  ],
+  "Chưa xác định": [
+    "Not yet identified",
+    "尚未识别"
+  ],
+  "Nguồn kiến thức": [
+    "Knowledge source",
+    "知识来源"
+  ],
+  "Chờ lựa chọn": [
+    "Waiting for a choice",
+    "等待选择"
+  ],
+  "Quy tắc áp dụng": [
+    "Rules applied",
+    "应用的规则"
+  ],
+  "Bước tiếp theo": [
+    "Next step",
+    "下一步"
+  ],
+  "Vai trò, nguyên tắc hội thoại, instruction theo intent, validation và guardrails.": [
+    "Role, conversation principles, intent-specific instructions, validation and guardrails.",
+    "角色、对话原则、按意图设定的指令、校验和防护规则（guardrails）。"
+  ],
+  "AI chọn phần thông tin liên quan từ knowledge base để đưa vào context trả lời.": [
+    "The AI picks the relevant information from the knowledge base to put into the answer's context.",
+    "AI 从知识库中挑出相关信息，放入回答的上下文。"
+  ],
+  "Qualification, xử lý context và phân luồng demo / pricing / support.": [
+    "Qualification, context handling and routing between demo / pricing / support.",
+    "资质判断（Qualification）、上下文处理，以及在演示 / 价格 / 支持之间分流。"
+  ],
+  "Thu thập dữ liệu cần thiết và chuyển sang bước xử lý phù hợp.": [
+    "Collect the needed data and move to the right next step.",
+    "收集所需数据，并转入合适的下一步。"
+  ],
+  "Tham chiếu · Giao diện thật": [
+    "Reference · The real interface",
+    "参考 · 真实界面"
+  ],
+  "Giao diện 1AI thực tế": [
+    "The actual 1AI interface",
+    "1AI 的真实界面"
+  ],
+  "Giao diện 1AI thật mà bản demo phía trên dựng lại: lời chào, các nút gợi ý và luồng hướng dẫn sử dụng.": [
+    "The real 1AI interface that the demo above recreates: the greeting, the suggestion buttons and the user-guide flow.",
+    "上方演示所还原的 1AI 真实界面：欢迎语、建议按钮和使用指南流程。"
+  ],
+  "Từ hệ thống thật · Bấm ảnh để phóng to": [
+    "From the real system · Click the image to zoom",
+    "来自真实系统 · 点击图片放大"
+  ],
+  "Ảnh chụp giao diện 1AI thực tế": [
+    "Screenshot of the actual 1AI interface",
+    "1AI 真实界面的截图"
+  ],
+  "Luồng tạo nội dung": [
+    "Content-creation flow",
+    "内容生成流程"
+  ],
+  "Input từ Google Sheets đi qua Router, AI tạo nội dung, Parse JSON và ghi kết quả trở lại record.": [
+    "Input from Google Sheets goes through a Router, the AI creates the content, Parse JSON, and the result is written back to the record.",
+    "来自 Google Sheets 的输入经过 Router，由 AI 生成内容，再通过 Parse JSON，并把结果写回记录。"
+  ],
+  "Router phân nhánh": [
+    "Router branching",
+    "Router 分支"
+  ],
+  "Luồng đăng bài cho khách thuê": [
+    "Posting flow for tenants",
+    "租户发帖流程"
+  ],
+  "Workflow publishing thực tế nhận dữ liệu từ record, phân nhánh theo destination và thực hiện đăng tải theo logic đã cấu hình.": [
+    "The real publishing workflow receives data from the record, branches by destination and posts according to the configured logic.",
+    "真实的发布工作流从记录中接收数据，按发布目的地分支，并按已配置的逻辑完成发布。"
+  ],
+  "Nhận content / media từ record": [
+    "Receive content / media from the record",
+    "从记录中接收内容 / 媒体"
+  ],
+  "Route theo destination / logic đã cấu hình": [
+    "Route by destination / configured logic",
+    "按目的地 / 已配置的逻辑分流"
+  ],
+  "Publish qua các nhánh hệ thống": [
+    "Publish through the system branches",
+    "通过系统各分支发布"
+  ],
+  "Cập nhật trạng thái theo workflow": [
+    "Update the status according to the workflow",
+    "按工作流更新状态"
+  ],
+  "Luồng sửa bài & Top comment": [
+    "Edit post & Top comment flow",
+    "修改帖子与置顶评论流程"
+  ],
+  "Sau khi bài đã tồn tại, workflow hỗ trợ chỉnh sửa post và thêm top comment rồi cập nhật tracking record.": [
+    "Once a post exists, the workflow supports editing it and adding a top comment, then updates the tracking record.",
+    "帖子发布后，工作流支持修改帖子并添加置顶评论，然后更新跟踪记录。"
+  ],
+  "Search Rows để tìm record": [
+    "Search Rows to find the record",
+    "用 Search Rows 查找记录"
+  ],
+  "Edit Post hoặc Create Comment": [
+    "Edit Post or Create Comment",
+    "Edit Post 或 Create Comment"
+  ],
+  "Update Row / trạng thái": [
+    "Update Row / status",
+    "Update Row / 状态"
+  ],
+  "Doanh nghiệp demo": [
+    "Demo business",
+    "演示企业"
+  ],
+  "Dữ liệu phân tán": [
+    "Scattered data",
+    "数据分散"
+  ],
+  "Giúp report hiểu bối cảnh cơ bản của doanh nghiệp.": [
+    "Helps the report understand the business's basic context.",
+    "帮助报告了解企业的基本背景。"
+  ],
+  "Tên doanh nghiệp": [
+    "Business name",
+    "企业名称"
+  ],
+  "Quy mô nhân sự": [
+    "Headcount",
+    "员工规模"
+  ],
+  "Lĩnh vực hoạt động": [
+    "Field of operation",
+    "经营领域"
+  ],
+  "Bán lẻ": [
+    "Retail",
+    "零售"
+  ],
+  "Vai trò của bạn": [
+    "Your role",
+    "你的职位"
+  ],
+  "Quản lý / Lãnh đạo": [
+    "Manager / Leadership",
+    "管理者 / 领导层"
+  ],
+  "Một số câu hỏi đại diện từ assessment thật, được rút gọn cho trải nghiệm portfolio.": [
+    "A few representative questions from the real assessment, shortened for the portfolio experience.",
+    "来自真实评估的几道代表性问题，为作品集体验做了精简。"
+  ],
+  "Mức độ số hóa quy trình nội bộ": [
+    "Level of digitization of internal processes",
+    "内部流程的数字化程度"
+  ],
+  "Chủ yếu thủ công": [
+    "Mostly manual",
+    "以手工为主"
+  ],
+  "Đã dùng công cụ rời rạc": [
+    "Using scattered tools",
+    "使用分散的工具"
+  ],
+  "Đã số hóa phần lớn": [
+    "Mostly digitized",
+    "大部分已数字化"
+  ],
+  "Tích hợp gần như toàn bộ": [
+    "Almost fully integrated",
+    "几乎全部集成"
+  ],
+  "Mức độ kết nối giữa các hệ thống": [
+    "Level of connection between systems",
+    "系统之间的连接程度"
+  ],
+  "Gần như tách rời": [
+    "Almost entirely separate",
+    "几乎完全分离"
+  ],
+  "Có kết nối thủ công": [
+    "Some manual connections",
+    "有一些手工连接"
+  ],
+  "Một số luồng tích hợp": [
+    "Some integrated flows",
+    "有部分流程已集成"
+  ],
+  "Dữ liệu luân chuyển tự động": [
+    "Data moves automatically",
+    "数据自动流转"
+  ],
+  "Mức độ sử dụng AI": [
+    "Level of AI use",
+    "AI 使用程度"
+  ],
+  "Chưa sử dụng": [
+    "Not used yet",
+    "尚未使用"
+  ],
+  "Cá nhân tự dùng": [
+    "Individuals use it on their own",
+    "个人自行使用"
+  ],
+  "Có use case theo nhóm": [
+    "Team-level use cases",
+    "有团队级的使用场景"
+  ],
+  "AI tích hợp vào vận hành": [
+    "AI integrated into operations",
+    "AI 已融入运营"
+  ],
+  "Chuẩn hóa quy trình": [
+    "Process standardization",
+    "流程标准化"
+  ],
+  "Chưa rõ": [
+    "Unclear",
+    "不清楚"
+  ],
+  "Một số quy trình": [
+    "Some processes",
+    "部分流程"
+  ],
+  "Phần lớn đã chuẩn hóa": [
+    "Mostly standardized",
+    "大部分已标准化"
+  ],
+  "Chuẩn hóa + đo lường": [
+    "Standardized + measured",
+    "已标准化并有度量"
+  ],
+  "Đánh giá cách dữ liệu và CRM đang hỗ trợ vận hành, ra quyết định và tăng trưởng.": [
+    "Assesses how data and CRM support operations, decision-making and growth.",
+    "评估数据和 CRM 对运营、决策和增长的支撑程度。"
+  ],
+  "Dữ liệu phục vụ quyết định": [
+    "Data for decision-making",
+    "用于决策的数据"
+  ],
+  "Excel thủ công": [
+    "Manual Excel",
+    "手工 Excel"
+  ],
+  "Báo cáo định kỳ": [
+    "Periodic reports",
+    "定期报告"
+  ],
+  "Dashboard một phần": [
+    "Partial dashboard",
+    "部分仪表盘"
+  ],
+  "Real-time + cảnh báo": [
+    "Real-time + alerts",
+    "实时数据 + 预警"
+  ],
+  "CRM / bán hàng": [
+    "CRM / sales",
+    "CRM / 销售"
+  ],
+  "Theo dõi thủ công": [
+    "Manual tracking",
+    "手工跟踪"
+  ],
+  "Lưu trữ tập trung": [
+    "Centralized storage",
+    "集中存储"
+  ],
+  "Có pipeline rõ": [
+    "Clear pipeline",
+    "有清晰的销售管道"
+  ],
+  "Xác định điểm nghẽn cần ưu tiên trong report.": [
+    "Identify the bottlenecks to prioritize in the report.",
+    "识别报告中需要优先处理的瓶颈。"
+  ],
+  "Rào cản lớn nhất": [
+    "Biggest barrier",
+    "最大的障碍"
+  ],
+  "Quy trình thủ công": [
+    "Manual processes",
+    "手工流程"
+  ],
+  "Thiếu năng lực AI nội bộ": [
+    "Lack of in-house AI capability",
+    "缺乏内部 AI 能力"
+  ],
+  "Hệ thống chưa tích hợp": [
+    "Systems not integrated",
+    "系统未集成"
+  ],
+  "Ưu tiên 6–12 tháng": [
+    "Priorities for the next 6–12 months",
+    "未来 6–12 个月的优先事项"
+  ],
+  "Tích hợp & tự động hóa": [
+    "Integration & automation",
+    "集成与自动化"
+  ],
+  "Dữ liệu & dashboard": [
+    "Data & dashboards",
+    "数据与仪表盘"
+  ],
+  "Chuẩn hóa sử dụng AI": [
+    "Standardizing AI use",
+    "规范 AI 的使用"
+  ],
+  "← Quay lại": [
+    "← Back",
+    "← 返回"
+  ],
+  "Tạo report →": [
+    "Create report →",
+    "生成报告 →"
+  ],
+  "Tiếp tục →": [
+    "Continue →",
+    "继续 →"
+  ],
+  "Bước": [
+    "Step",
+    "步骤"
+  ],
+  "Vận hành & Tích hợp": [
+    "Operations & Integration",
+    "运营与集成"
+  ],
+  "Năng suất & Quy trình": [
+    "Productivity & Process",
+    "效率与流程"
+  ],
+  "Quản trị nội bộ": [
+    "Internal governance",
+    "内部治理"
+  ],
+  "Dữ liệu & Ra quyết định": [
+    "Data & Decision-making",
+    "数据与决策"
+  ],
+  "AI & Tự động hóa": [
+    "AI & Automation",
+    "AI 与自动化"
+  ],
+  "Bán hàng & CRM": [
+    "Sales & CRM",
+    "销售与 CRM"
+  ],
+  "Khởi đầu (Reactive)": [
+    "Getting started (Reactive)",
+    "起步阶段（Reactive）"
+  ],
+  "Xây dựng Nền tảng (Structured)": [
+    "Building the foundation (Structured)",
+    "夯实基础（Structured）"
+  ],
+  "Tích hợp & Tự động hóa (Integrated)": [
+    "Integration & automation (Integrated)",
+    "集成与自动化（Integrated）"
+  ],
+  "Dẫn dắt bởi Dữ liệu (AI-Driven)": [
+    "Data-driven (AI-Driven)",
+    "数据驱动（AI-Driven）"
+  ],
+  "Tốt": [
+    "Good",
+    "良好"
+  ],
+  "Khá": [
+    "Fair",
+    "尚可"
+  ],
+  "Cần cải thiện": [
+    "Needs improvement",
+    "需要改进"
+  ],
+  "Cần ưu tiên": [
+    "Needs priority",
+    "需要优先处理"
+  ],
+  "Đây là một trong những nền tảng tốt hơn của doanh nghiệp ở thời điểm hiện tại.": [
+    "This is one of the business's stronger foundations at the moment.",
+    "这是企业目前较为扎实的基础之一。"
+  ],
+  "Đây là vùng cần ưu tiên để giảm khoảng trống vận hành và tạo nền tảng cho automation/AI.": [
+    "This is the area to prioritize to reduce operational gaps and build a base for automation/AI.",
+    "这是需要优先处理的领域，用来缩小运营差距，并为自动化和 AI 打下基础。"
+  ],
+  "Năng lực đã hình thành nhưng vẫn còn khoảng trống cần chuẩn hóa và đo lường rõ hơn.": [
+    "The capability has taken shape, but gaps remain that need standardizing and clearer measurement.",
+    "能力已经形成，但仍有差距，需要进一步标准化并做更清晰的度量。"
+  ],
+  "Chuẩn hóa & tự động hóa vùng ưu tiên": [
+    "Standardize & automate the priority area",
+    "标准化并自动化优先领域"
+  ],
+  "Tập trung trước vào": [
+    "Focus first on ",
+    "优先聚焦于 "
+  ],
+  "— vùng điểm thấp nhất trong snapshot hiện tại.": [
+    " — the lowest-scoring area in the current snapshot.",
+    " ——当前快照中得分最低的领域。"
+  ],
+  "Chuẩn hóa dữ liệu / quy trình đầu vào.": [
+    "Standardize input data / processes.",
+    "规范输入数据与流程。"
+  ],
+  "Chọn 1–2 use case có thể đo lường.": [
+    "Choose 1–2 use cases that can be measured.",
+    "选择 1–2 个可度量的使用场景。"
+  ],
+  "Thiết lập owner và mốc review.": [
+    "Set an owner and review milestones.",
+    "确定负责人和复盘节点。"
+  ],
+  "Xây dựng cách dùng AI có kiểm soát": [
+    "Build controlled AI use",
+    "建立可控的 AI 使用方式"
+  ],
+  "Biến việc dùng AI từ thử nghiệm cá nhân thành năng lực có rule và ownership.": [
+    "Turn AI use from personal experimentation into a capability with rules and ownership.",
+    "把 AI 的使用从个人尝试转变为有规则、有责任人的能力。"
+  ],
+  "Xác định use case theo phòng ban.": [
+    "Define use cases by department.",
+    "按部门确定使用场景。"
+  ],
+  "Thiết lập hướng dẫn và nguyên tắc bảo mật.": [
+    "Set up guidelines and security principles.",
+    "制定使用指南和安全原则。"
+  ],
+  "Theo dõi tác động lên năng suất.": [
+    "Track the impact on productivity.",
+    "跟踪对效率的影响。"
+  ],
+  "Đưa dữ liệu gần hơn với quyết định": [
+    "Bring data closer to decisions",
+    "让数据更贴近决策"
+  ],
+  "Giảm phụ thuộc vào tổng hợp thủ công và tăng khả năng quan sát theo thời gian thực.": [
+    "Reduce reliance on manual compilation and improve real-time visibility.",
+    "减少对手工汇总的依赖，提高实时可见性。"
+  ],
+  "Ưu tiên một bộ KPI cốt lõi.": [
+    "Prioritize a core set of KPIs.",
+    "优先确定一组核心 KPI。"
+  ],
+  "Tập trung dữ liệu về cùng một nguồn quan sát.": [
+    "Bring data into one single source of visibility.",
+    "把数据集中到同一个可观察的来源。"
+  ],
+  "Thiết lập cảnh báo / review định kỳ.": [
+    "Set up alerts / periodic reviews.",
+    "设置预警和定期复盘。"
+  ],
+  "Báo cáo đánh giá mức độ sẵn sàng AI & Automation": [
+    "AI & Automation readiness assessment report",
+    "AI 与自动化准备度评估报告"
+  ],
+  "← Chỉnh câu trả lời": [
+    "← Edit answers",
+    "← 修改回答"
+  ],
+  "Vị trí hiện tại:": [
+    "Current position:",
+    "当前位置："
+  ],
+  "Vị trí hiện tại": [
+    "Current position",
+    "当前位置"
+  ],
+  "Snapshot dùng assessment rút gọn; công thức chấm điểm gốc không được tái hiện.": [
+    "The snapshot uses the condensed assessment; the original scoring formula is not reproduced.",
+    "快照使用的是精简版评估，不会还原原始评分公式。"
+  ],
+  "Bức tranh": [
+    "The overall",
+    "整体"
+  ],
+  "tổng quan": [
+    "picture",
+    "概况"
+  ],
+  "Vị trí của doanh nghiệp bạn trên hành trình AI và những điểm cần ưu tiên.": [
+    "Where your business stands on the AI journey and the points to prioritize.",
+    "你的企业在 AI 之路上所处的位置，以及需要优先处理的事项。"
+  ],
+  "Điểm mạnh": [
+    "Strength",
+    "优势"
+  ],
+  "đạt": [
+    " scores ",
+    " 达到 "
+  ],
+  "— đây là nền tảng tốt nhất trong snapshot hiện tại và có thể dùng làm điểm tựa cho các bước triển khai tiếp theo.": [
+    "— this is the strongest foundation in the current snapshot and can serve as a base for the next steps of implementation.",
+    "——这是当前快照中最扎实的基础，可以作为后续推进的支点。"
+  ],
+  "Điểm yếu": [
+    "Weakness",
+    "不足"
+  ],
+  "ở mức": [
+    " is at ",
+    " 为 "
+  ],
+  "— nên được đưa vào nhóm ưu tiên trước khi mở rộng automation/AI sang nhiều quy trình hơn.": [
+    "— should be put in the priority group before expanding automation/AI to more processes.",
+    "——应当先列入优先事项，再把自动化和 AI 扩展到更多流程。"
+  ],
+  "Điểm số 6 nhóm năng lực": [
+    "Scores for the 6 capability groups",
+    "6 个能力维度的得分"
+  ],
+  "Biểu đồ năng lực tổng thể": [
+    "Overall capability chart",
+    "整体能力图"
+  ],
+  "Điểm doanh nghiệp": [
+    "Business score",
+    "企业得分"
+  ],
+  "Mục tiêu 100%": [
+    "Target 100%",
+    "目标 100%"
+  ],
+  "Đánh giá từng nhóm": [
+    "Assessment of each",
+    "逐项评估各个"
+  ],
+  "năng lực": [
+    "capability group",
+    "能力维度"
+  ],
+  "Ưu điểm và điểm cần cải thiện theo từng lĩnh vực.": [
+    "Strengths and points to improve in each area.",
+    "各个领域的优势与待改进之处。"
+  ],
+  "Kế hoạch hành động": [
+    "Action plan",
+    "行动计划"
+  ],
+  "ưu tiên": [
+    "priorities",
+    "优先事项"
+  ],
+  "Những hạng mục cần ưu tiên triển khai nhằm tháo gỡ các “nút thắt” vận hành.": [
+    "The items to prioritize in order to remove operational “bottlenecks”.",
+    "为了消除运营中的“瓶颈”，需要优先推进的事项。"
+  ],
+  "Khuyến nghị": [
+    "Recommendations",
+    "建议"
+  ],
+  "Ưu đãi": [
+    "Offer",
+    "优惠"
+  ],
+  "Ảnh": [
+    "Image",
+    "图片"
+  ],
+  "Tạo yêu cầu truyền thông": [
+    "Create a communications request",
+    "创建传播需求"
+  ],
+  "Order mẫu từ khách thuê tại Vincom Mega Mall Times City.": [
+    "A sample order from a tenant at Vincom Mega Mall Times City.",
+    "来自 Vincom Mega Mall Times City 一家租户的示例订单（order）。"
+  ],
+  "Dữ liệu mẫu đang dùng:": [
+    "Sample data in use:",
+    "当前使用的示例数据："
+  ],
+  "Đối tượng gửi": [
+    "Sent by",
+    "提交方"
+  ],
+  "Ban quản lý": [
+    "Mall management",
+    "管理处"
+  ],
+  "Khách thuê (Tenant)": [
+    "Tenant",
+    "租户（Tenant）"
+  ],
+  "Tên TTTM *": [
+    "Mall name *",
+    "商场名称 *"
+  ],
+  "Tên tenant *": [
+    "Tenant name *",
+    "租户名称 *"
+  ],
+  "Nhóm nội dung truyền thông *": [
+    "Communications content group *",
+    "传播内容类型 *"
+  ],
+  "Sự kiện": [
+    "Event",
+    "活动"
+  ],
+  "Tin tức": [
+    "News",
+    "新闻"
+  ],
+  "Thời hạn *": [
+    "Duration *",
+    "期限 *"
+  ],
+  "Hình thức *": [
+    "Format *",
+    "形式 *"
+  ],
+  "Nội dung *": [
+    "Content *",
+    "内容 *"
+  ],
+  "Top comment (nếu có)": [
+    "Top comment (if any)",
+    "置顶评论（如有）"
+  ],
+  "Media muốn đăng": [
+    "Media to post",
+    "要发布的媒体"
+  ],
+  "Ảnh đính kèm trong order · Echappe · 03–17.09.2025": [
+    "Image attached to the order · Echappe · 03–17.09.2025",
+    "订单附带的图片 · Echappe · 2025/09/03–2025/09/17"
+  ],
+  "Xem nội dung 3 kênh →": [
+    "View the 3-channel content →",
+    "查看三个渠道的内容 →"
+  ],
+  "Nội dung theo từng kênh": [
+    "Content for each channel",
+    "各渠道内容"
+  ],
+  "Generated sample based on a real content order · Nội dung được tạo từ order mẫu, không phải bài đăng lịch sử.": [
+    "Generated sample based on a real content order · Content generated from a sample order, not a historical post.",
+    "基于真实内容订单生成的示例 · 内容由示例订单生成，并非历史帖子。"
+  ],
+  "Xem workflow đăng tải →": [
+    "View the posting workflow →",
+    "查看发布工作流 →"
+  ],
+  "Quy trình đăng tải thực tế": [
+    "The real posting process",
+    "真实的发布流程"
+  ],
+  "Nội dung Facebook, TikTok và Zalo OA sau khi hoàn tất sẽ được chuyển vào workflow đăng tải tương ứng.": [
+    "Once the Facebook, TikTok and Zalo OA content is complete, it is passed to the matching posting workflow.",
+    "Facebook、TikTok 和 Zalo OA 的内容完成后，会被传递到对应的发布工作流。"
+  ],
+  "Workflow thực tế nhận content/media từ record, route theo logic đã cấu hình, thực hiện đăng tải và cập nhật trạng thái vận hành.": [
+    "The real workflow receives content/media from the record, routes by the configured logic, posts and updates the operating status.",
+    "真实的工作流从记录中接收内容和媒体，按已配置的逻辑分流，完成发布并更新运营状态。"
+  ],
+  "Phóng to workflow ↗": [
+    "Zoom in on the workflow ↗",
+    "放大工作流 ↗"
+  ],
+  "Luồng đăng bài Make.com thực tế cho khách thuê": [
+    "The real Make.com posting flow for tenants",
+    "面向租户的真实 Make.com 发帖流程"
+  ],
+  "Make.com scenario thực tế · Luồng publishing nhiều nhánh cho tenant order.": [
+    "A real Make.com scenario · A multi-branch publishing flow for tenant orders.",
+    "真实的 Make.com 场景 · 针对租户订单的多分支发布流程。"
+  ],
+  "Xem cả 3 workflow →": [
+    "View all 3 workflows →",
+    "查看全部 3 个工作流 →"
+  ],
+  "← Xem nội dung 3 kênh": [
+    "← View the 3-channel content",
+    "← 查看三个渠道的内容"
+  ],
+  "← Quay lại giao diện sản phẩm": [
+    "← Back to the product interface",
+    "← 返回产品界面"
+  ],
+  "Luồng thực tế cho thấy quy mô và mức độ phân nhánh của quy trình đăng bài cho khách thuê.": [
+    "The real flow shows the scale and the degree of branching of the posting process for tenants.",
+    "真实的流程展示了租户发帖流程的规模和分支复杂程度。"
+  ],
+  "Phù hợp cao": [
+    "High fit",
+    "高度匹配"
+  ],
+  "Tiềm năng": [
+    "Potential",
+    "有潜力"
+  ],
+  "Chưa phù hợp": [
+    "Not a fit",
+    "不匹配"
+  ],
+  "Hồ sơ phù hợp; tiếp tục L2 để xác định mức ưu tiên.": [
+    "The profile fits; continue to L2 to set the priority level.",
+    "资料匹配；继续进入 L2 以确定优先级。"
+  ],
+  "Tính điểm ICP L2 →": [
+    "Calculate ICP L2 score →",
+    "计算 ICP L2 分数 →"
+  ],
+  "Kết quả ICP Level 2": [
+    "ICP Level 2 result",
+    "ICP 二级结果"
+  ],
+  "Kết hợp hồ sơ, bài toán và tín hiệu Sales để đề xuất hướng xử lý.": [
+    "Combines the profile, the problem and Sales signals to suggest how to handle the lead.",
+    "综合资料、问题和销售信号，给出处理该线索的建议。"
+  ],
+  "Ưu tiên cao → Sales follow-up / demo": [
+    "High priority → Sales follow-up / demo",
+    "高优先级 → 销售跟进 / 演示"
+  ],
+  "Đạt → Tiếp tục pipeline": [
+    "Qualified → Continue in the pipeline",
+    "合格 → 继续留在销售管道中"
+  ],
+  "Tiềm năng → Nurture": [
+    "Potential → Nurture",
+    "有潜力 → 培育（Nurture）"
+  ],
+  "Luồng xử lý được cập nhật theo tình huống bạn vừa chọn.": [
+    "The processing flow is updated to match the situation you just chose.",
+    "处理流程已根据你刚选择的情境更新。"
+  ],
+  "HDSD / Hỗ trợ kỹ thuật": [
+    "User guide / Technical support",
+    "使用指南 / 技术支持"
+  ],
+  "Bạn muốn trải nghiệm luồng nào?": [
+    "Which flow would you like to try?",
+    "你想体验哪条流程？"
+  ],
+  "Tra cứu hướng dẫn": [
+    "Look up the guide",
+    "查询指南"
+  ],
+  "1AI nhận diện câu hỏi và dẫn tới nội dung HDSD phù hợp.": [
+    "1AI recognizes the question and leads to the matching user-guide content.",
+    "1AI 识别问题，并引导到对应的使用指南内容。"
+  ],
+  "Tạo Ticket hỗ trợ": [
+    "Create a support Ticket",
+    "创建支持工单（Ticket）"
+  ],
+  "Xem từng bước gửi yêu cầu khi cần đội hỗ trợ xử lý.": [
+    "See the steps for submitting a request when the support team needs to handle it.",
+    "查看在需要支持团队处理时，提交请求的各个步骤。"
+  ],
+  "Knowledge Base · Tài liệu HDSD": [
+    "Knowledge Base · User-guide documents",
+    "知识库 · 使用指南文档"
+  ],
+  "Chọn tra cứu hướng dẫn hoặc tạo Ticket": [
+    "Choose to look up a guide or create a Ticket",
+    "选择查询指南或创建工单"
+  ],
+  "Tra cứu hướng dẫn sử dụng": [
+    "Look up the user guide",
+    "查询使用指南"
+  ],
+  "1AI xác định chức năng bạn đang hỏi, tìm phần tài liệu liên quan trong knowledge base và trả về hướng dẫn ngắn gọn. Nếu vấn đề cần xử lý trực tiếp, hệ thống chuyển sang luồng Ticket.": [
+    "1AI works out which function you are asking about, finds the relevant section of the knowledge base and returns a short guide. If the issue needs direct handling, the system moves to the Ticket flow.",
+    "1AI 判断你询问的是哪项功能，在知识库中找到相关部分，并返回简明的指南。如果问题需要直接处理，系统会转入工单（Ticket）流程。"
+  ],
+  "Tiếp tục: xem cách tạo Ticket →": [
+    "Next: see how to create a Ticket →",
+    "下一步：查看如何创建工单 →"
+  ],
+  "Tra cứu HDSD": [
+    "User-guide lookup",
+    "使用指南查询"
+  ],
+  "Knowledge Retrieval / RAG · Tài liệu HDSD": [
+    "Knowledge Retrieval / RAG · User-guide documents",
+    "知识检索 / RAG · 使用指南文档"
+  ],
+  "Trả hướng dẫn phù hợp → nếu cần xử lý: tạo Ticket": [
+    "Return the matching guide → if it needs handling: create a Ticket",
+    "返回合适的指南 → 如需处理：创建工单"
+  ],
+  "Luồng tạo Ticket hỗ trợ": [
+    "Support Ticket creation flow",
+    "创建支持工单的流程"
+  ],
+  "Mở phân hệ Hỗ trợ": [
+    "Open the Support module",
+    "打开“支持”模块"
+  ],
+  "Trong menu chính, vào nhóm ADVANCE và chọn Hỗ trợ.": [
+    "In the main menu, go to the ADVANCE group and choose Support.",
+    "在主菜单中进入 ADVANCE 分组，选择“支持”。"
+  ],
+  "Tạo mới → Ticket": [
+    "New → Ticket",
+    "新建 → 工单（Ticket）"
+  ],
+  "Chọn biểu tượng Tạo mới ở góc trên bên trái, sau đó chọn Ticket.": [
+    "Choose the New icon at the top left, then choose Ticket.",
+    "点击左上角的“新建”图标，然后选择“工单”。"
+  ],
+  "Điền thông tin yêu cầu": [
+    "Fill in the request details",
+    "填写请求信息"
+  ],
+  "Chọn loại yêu cầu, mô tả nội dung và đính kèm tài liệu liên quan nếu cần.": [
+    "Choose the request type, describe the content and attach related documents if needed.",
+    "选择请求类型，描述内容，并在需要时附上相关文档。"
+  ],
+  "Nhấn Cập nhật": [
+    "Click Update",
+    "点击“更新”"
+  ],
+  "Gửi Ticket để bộ phận hỗ trợ tiếp nhận và xử lý.": [
+    "Submit the Ticket so the support team can receive and handle it.",
+    "提交工单，让支持团队接收并处理。"
+  ],
+  "Tài liệu HDSD hệ thống": [
+    "System user-guide documents",
+    "系统使用指南文档"
+  ],
+  "Support routing · Không hứa thời gian xử lý": [
+    "Support routing · No promised handling time",
+    "支持分流 · 不承诺处理时间"
+  ],
+  "Hỗ trợ → Tạo mới → Ticket → Điền thông tin → Cập nhật": [
+    "Support → New → Ticket → Fill in details → Update",
+    "支持 → 新建 → 工单 → 填写信息 → 更新"
+  ],
+  "Tôi có thể hỗ trợ đặt lịch demo. Bạn cho tôi biết quy mô doanh nghiệp và nhu cầu chính để điều phối đúng tư vấn viên nhé.": [
+    "I can help you book a demo. Tell me your company size and main need so I can route you to the right consultant.",
+    "我可以帮你预约演示。请告诉我贵公司的规模和主要需求，我会为你安排合适的顾问。"
+  ],
+  "Đặt lịch demo": [
+    "Book a demo",
+    "预约演示"
+  ],
+  "Thông tin sản phẩm · Demo context": [
+    "Product information · Demo context",
+    "产品信息 · 演示上下文"
+  ],
+  "Xác định quy mô → nhu cầu → chuyển demo": [
+    "Identify size → need → move to demo",
+    "确定规模 → 需求 → 转入演示"
+  ],
+  "Để tư vấn phù hợp, doanh nghiệp của bạn hiện có khoảng bao nhiêu nhân sự và đang ưu tiên bài toán nào: nhân sự, công việc hay CRM?": [
+    "To advise you properly, roughly how many employees does your business have, and which problem is the priority: HR, tasks or CRM?",
+    "为了给出合适的建议，请问贵公司大约有多少员工，目前优先解决哪类问题：人事、任务还是 CRM？"
+  ],
+  "Thông tin giải pháp · ICP context": [
+    "Solution information · ICP context",
+    "解决方案信息 · ICP 上下文"
+  ],
+  "Xác định quy mô → làm rõ nhu cầu → gợi ý giải pháp": [
+    "Identify size → clarify the need → suggest a solution",
+    "确定规模 → 明确需求 → 推荐解决方案"
+  ],
+  "Bảng giá phụ thuộc phạm vi sử dụng và quy mô. Bạn cho tôi biết số lượng nhân sự dự kiến và nhóm giải pháp quan tâm nhé.": [
+    "Pricing depends on the scope of use and the size. Tell me the expected number of employees and the solution group you are interested in.",
+    "价格取决于使用范围和规模。请告诉我预计的员工人数和你感兴趣的解决方案类别。"
+  ],
+  "Pricing · Thông tin sản phẩm": [
+    "Pricing · Product information",
+    "价格 · 产品信息"
+  ],
+  "Thu thập quy mô → phạm vi → hướng tư vấn phù hợp": [
+    "Collect size → scope → suitable advisory direction",
+    "收集规模 → 范围 → 合适的咨询方向"
+  ],
+  "Bản demo portfolio hiện mô phỏng 4 nhóm tình huống chính: đặt lịch demo, tư vấn giải pháp, bảng giá và HDSD phần mềm. Bạn có thể chọn một quick action bên dưới để xem luồng đại diện.": [
+    "The portfolio demo currently simulates 4 main groups of situations: booking a demo, solution consultation, pricing and software user guides. You can choose a quick action below to see a representative flow.",
+    "作品集演示目前模拟 4 类主要情境：预约演示、方案咨询、价格和软件使用指南。你可以在下方选择一个快捷操作，查看具有代表性的流程。"
+  ],
+  "ICP L1 → ICP L2 → phân luồng": [
+    "ICP L1 → ICP L2 → routing",
+    "ICP L1 → ICP L2 → 分流"
+  ],
+  "Từ nhu cầu đến tạo nội dung, đăng tải và xử lý sau đăng - được tái dựng từ workflow vận hành thực tế.": [
+    "From a need to content creation, posting and post-publishing handling - rebuilt from the real operating workflow.",
+    "从需求到内容创作、发布和发布后的处理——基于真实运营工作流重建。"
+  ],
+  "Cách research, tracking và scoring kết nối với nhau: L1 đánh giá độ phù hợp của hồ sơ lead; L2 bổ sung nhu cầu và tín hiệu Sales để xác định mức ưu tiên.": [
+    "How research, tracking and scoring connect: L1 assesses how well a lead's profile fits; L2 adds needs and Sales signals to set the priority level.",
+    "调研、追踪与评分如何衔接：L1 评估线索资料的匹配程度；L2 补充需求和销售信号，以确定优先级。"
+  ],
+  "Trải nghiệm 1AI, dựa trên knowledge base tổng hợp từ tài liệu có sẵn, và xem cách prompt, knowledge retrieval và logic hội thoại phối hợp phía sau mỗi câu trả lời.": [
+    "Try 1AI, built on a knowledge base compiled from existing documents, and see how the prompt, knowledge retrieval and conversation logic work together behind each answer.",
+    "体验基于现有资料整理出的知识库的 1AI，并了解每个回答背后提示词、知识检索与对话逻辑如何协同工作。"
+  ],
+  "Tiếp theo:": [
+    "Next:",
+    "下一个："
+  ],
+  "Về module đầu:": [
+    "Back to the first module:",
+    "回到第一个模块："
+  ],
+  "Chuyển module": [
+    "Switch module",
+    "切换模块"
+  ]
+}
