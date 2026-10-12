@@ -1,0 +1,252 @@
+@import "tailwindcss";
+
+/* Body face: without this, the `font-sans` utility on <App/> resolves to the OS system font and overrides the body rule. */
+@theme {
+  --font-sans: 'Be Vietnam Pro', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+.font-serif-title {
+  font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
+}
+
+.font-tech-display {
+  font-family: 'Space Grotesk', 'Be Vietnam Pro', sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+
+
+/* Custom animations */
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+
+
+/* Accessibility: visible keyboard focus ring on all interactive elements */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid #0D9488;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Accessibility: respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/* Horizontal scroll utility */
+.horizontal-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(30, 58, 95, 0.28) transparent;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.horizontal-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb {
+  background: rgba(30, 58, 95, 0.24);
+  border-radius: 999px;
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(30, 58, 95, 0.4);
+}
+
+@media (max-width: 639px) {
+  .horizontal-scroll {
+    scrollbar-width: none;
+  }
+  .horizontal-scroll::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Responsive and accessibility refinements */
+html {
+  background: #F8FAFC;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+  background: #F8FAFC;
+  color: #0F172A;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 100;
+  transform: translateY(-160%);
+  padding: 0.65rem 0.9rem;
+  border-radius: 0.75rem;
+  background: #163B65;
+  color: white;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  box-shadow: 0 12px 28px rgba(31, 27, 23, 0.18);
+  transition: transform 160ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+#about,
+#projects,
+#experience,
+#skills,
+#contact,
+#marketing-lab {
+  scroll-margin-top: calc(var(--header-height, 65px) + 1rem);
+}
+
+[id^='project-'],
+#more-selected-work {
+  scroll-margin-top: calc(var(--header-height, 65px) + var(--work-nav-height, 62px) + 1rem);
+}
+
+@media (max-width: 767px) {
+  button,
+  a {
+    -webkit-tap-highlight-color: rgba(13, 148, 136, 0.12);
+  }
+
+  .horizontal-scroll {
+    scroll-padding-inline: 1rem;
+    overscroll-behavior-x: contain;
+  }
+}
+
+.prose-measure {
+  max-width: 68ch;
+}
+
+@media (max-height: 720px) {
+  .dialog-shell {
+    max-height: 96vh !important;
+  }
+}
+
+
+/* Final editorial × v15 polish */
+:root { color-scheme: light; }
+body { background-image: radial-gradient(circle at 12% 0%, rgba(13,148,136,.035), transparent 28%), radial-gradient(circle at 85% 12%, rgba(22,59,101,.045), transparent 30%); }
+::selection { background:#163B65; color:#fff; }
+img { image-rendering:auto; }
+details > summary::-webkit-details-marker { display:none; }
+
+/* v19.4 — V-Creator evidence hierarchy */
+.vcreator-supporting-evidence { max-width: 90%; margin-inline: auto; }
+.vcreator-additional-evidence-figure { max-width: 30rem; margin-inline: auto; }
+@media (max-width: 767px) {
+  .vcreator-supporting-evidence, .vcreator-additional-evidence-figure { max-width: 100%; }
+}
+
+
+/* v19.11 — sticky layering, evidence system, typography rhythm */
+.flagship-case {
+  position: relative;
+  isolation: isolate;
+}
+
+.flagship-case h3,
+.flagship-case h4,
+.flagship-case h5 {
+  text-wrap: balance;
+}
+
+.flagship-case p,
+.flagship-case li {
+  text-wrap: pretty;
+}
+
+/* Short uppercase kicker/eyebrow labels should never leave a lone word stranded
+   on its own line if they wrap at narrow widths. */
+.font-mono-code {
+  text-wrap: balance;
+}
+
+@media (min-width: 1024px) {
+  .flagship-case .case-readable {
+    max-width: 68ch;
+  }
+}
+
+/* Clear stacking order: content < sticky asides < work jump nav < global header < overlays. */
+[data-sticky-layer='content'] { z-index: 10; }
+[data-sticky-layer='work-nav'] { z-index: 50; }
+[data-sticky-layer='header'] { z-index: 70; }
+
+
+:root { --header-height: 65px; --work-nav-height: 62px; }
+
+
+/* v20.7 accessibility overrides: AA contrast for small labels, 12px minimum, readable line length, touch targets. */
+.text-\[\#0D9488\] { color: #0F766E; }
+.text-\[\#94A3B8\] { color: #586980; }
+.text-\[9px\], .text-\[10px\], .text-\[11px\] { font-size: 12px; }
+main p.leading-relaxed:not([class*='max-w-']),
+main li.leading-relaxed:not([class*='max-w-']) { max-width: 78ch; }
+@media (max-width: 767px) {
+  #skills a, footer a, #contact a[href^='tel'], #contact a[href^='mailto'] { min-height: 40px; display: inline-flex; align-items: center; }
+}
+
+/* v20.8: paragraphs marked text-pretty are meant to span the full column (brief: "dàn đều, không chừa khoảng trống bên phải"). */
+main p.leading-relaxed.text-pretty:not([class*='max-w-']),
+main li.leading-relaxed.text-pretty:not([class*='max-w-']) { max-width: none; }
+
+/* v20.8: the Work sub-nav slides away while reading downward and returns on scroll-up (saves ~60px of viewport). */
+[data-sticky-layer='work-nav'] { transition: transform .22s ease, opacity .18s ease; }
+:root[data-work-nav='hidden'] [data-sticky-layer='work-nav'] { transform: translateY(-110%); opacity: 0; pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { [data-sticky-layer='work-nav'] { transition: none; } }
