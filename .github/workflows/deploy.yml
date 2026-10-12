@@ -38,14 +38,28 @@ jobs:
       - name: Build Vite app
         run: npm run build
 
+      - name: Validate production build
+        run: |
+          test -f dist/index.html
+          test -d dist/assets
+          grep -q '/my-portfolio/assets/' dist/index.html
+          if grep -q 'src="/src/main.tsx"' dist/index.html; then
+            echo "Uncompiled Vite source found in production HTML" >&2
+            exit 1
+          fi
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
+      # Use a distinct name on each attempt to support safe workflow re-runs.
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
