@@ -18,7 +18,7 @@ const capabilities: Capability[] = [
   { title: 'Execution & Operations (hỗ trợ)', description: 'Nội dung ngắn, landing page, SEO; chuẩn hóa workflow và giảm thao tác lặp.', evidence: [{ label: 'Content quảng bá Ebook B2B', href: '#project-seo-content-ads' }, { label: 'Marketing Automation', href: '#project-make-automation' }] },
 ];
 
-const tools = ['Make.com', 'Google Sheets', 'Meta platforms', 'Canva', 'Figma', 'CMS', 'AI tools'];
+const tools = ['Make.com', 'Google Sheets', 'Meta platforms', 'Canva', 'Figma', 'Ladipage', 'CMS', 'CRM', 'AI tools'];
 
 export const SkillsSection: React.FC = () => (
   <section id="skills" className="pt-14 pb-14 sm:pt-16 sm:pb-16 md:pt-16 md:pb-20 bg-[#F8FAFC] border-b border-[#DCE4EE]">
@@ -76,6 +76,18 @@ export const SkillsSection: React.FC = () => (
             </motion.article>
           );
         })}
+      </div>
+
+      <div className="mt-8 sm:mt-10 pt-6 border-t border-[#DCE4EE]">
+        <h3 className="text-xs font-semibold uppercase tracking-[0.12em] text-[#526179]">Công cụ & nền tảng</h3>
+        <div className="mt-3 flex flex-wrap gap-2" aria-label="Công cụ & nền tảng">
+          {tools.map((tool) => (
+            <span key={tool} className="inline-flex items-center min-h-9 px-3 py-2 rounded-full border border-[#DCE4EE] bg-white text-xs sm:text-sm font-medium text-[#334155]">
+              {tool}
+            </span>
+          ))}
+        </div>
+        <p className="mt-3 text-sm text-[#526179]">CRM: kiểm tra lead, phân loại và xuất dữ liệu phục vụ tracking.</p>
       </div>
     </div>
   </section>

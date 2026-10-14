@@ -219,7 +219,7 @@ export const PROJECTS: ExtendedProject[] = [
     "company": "1Office",
     "category": "seo",
     "featured": true,
-    "dateRange": "05/2026 – Hiện tại",
+    "dateRange": "04/2026 – Hiện tại",
     "externalUrl": "https://1office.vn/dich-vu-b2b",
     "linkText": "Xem Landing Page B2B",
     "cardImage": "./images/b2b-ebook2-ldp-hero.jpg",
@@ -378,7 +378,9 @@ export const PROJECTS: ExtendedProject[] = [
       ],
       "toolsUsed": [
         "Canva",
-        "1Office CMS"
+        "Ladipage",
+        "1Office CMS",
+        "CRM"
       ]
     }
   },
@@ -802,7 +804,7 @@ export const EXPERIENCE_LIST: ExperienceItem[] = [
     "role": "Product Marketing & AI Intern",
     "company": "1Office",
     "type": "Product Marketing · Content · Research · Operations",
-    "description": "Tại 1Office, công việc của tôi mở rộng từ content sang các bài toán B2B gắn với product và AI, gồm funnel, landing page, nurture, chatbot và ICP. Tôi đề xuất, so sánh hai phương án quảng cáo cho 3 ebook B2B, đồng thời phụ trách nội dung funnel và triển khai các landing page liên quan.\n\nTôi cũng xây dựng prompt và luồng hội thoại cho chatbot 1AI trên website, tham gia AI Readiness từ survey đến report và bàn giao, đồng thời hỗ trợ ICP Scoring đưa vào sử dụng từ 07/2026. Qua đó, tôi có nhiều kinh nghiệm hơn trong việc kết nối content với product, dữ liệu khách hàng và các bài toán tăng trưởng B2B.",
+    "description": "Tại 1Office, công việc của tôi mở rộng từ content sang các bài toán B2B gắn với product và AI, gồm funnel, landing page, nurture, chatbot và ICP. Tôi đề xuất, so sánh hai phương án quảng cáo cho 3 ebook B2B, đồng thời phụ trách nội dung funnel và triển khai các landing page liên quan.\n\nTôi trực tiếp kiểm tra, phân loại lead trên CRM và xuất dữ liệu để tracking. Tôi cũng xây dựng prompt và luồng hội thoại cho chatbot 1AI trên website, tham gia AI Readiness từ survey đến report và bàn giao, đồng thời hỗ trợ ICP Scoring đưa vào sử dụng từ 07/2026. Qua đó, tôi có nhiều kinh nghiệm hơn trong việc kết nối content với product, dữ liệu khách hàng và các bài toán tăng trưởng B2B.",
     "achievements": [],
     "skills": [
       "B2B Content",
@@ -811,7 +813,8 @@ export const EXPERIENCE_LIST: ExperienceItem[] = [
       "AI Readiness",
       "AI Chatbot / Prompt Design",
       "Multichannel Marketing",
-      "ABM Email"
+      "ABM Email",
+      "CRM Lead Tracking"
     ]
   },
   {
