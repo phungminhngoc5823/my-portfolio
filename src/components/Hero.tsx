@@ -35,7 +35,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenLab }) => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#059669] opacity-75" />
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#059669]" />
               </span>
-              <span className="text-xs font-tech-display font-semibold text-[#163B65] tracking-widest uppercase">
+              <span className="text-xs  font-semibold text-[#163B65] tracking-widest uppercase">
                 {PERSONAL_INFO.heroEyebrow}
               </span>
             </div>
@@ -94,7 +94,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenLab }) => {
                 <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[#0B1626]/80 to-transparent" aria-hidden="true" />
                 <div className="absolute left-5 bottom-5 text-white">
                   <p className="font-serif-title font-medium text-xl leading-tight">{PERSONAL_INFO.name}</p>
-                  <p className="mt-1 text-[11px] font-mono-code text-white/75">Hanoi, Vietnam</p>
+ <p className="mt-1 text-[11px] text-white/75">Hanoi, Vietnam</p>
                 </div>
               </div>
             </div>
@@ -110,15 +110,15 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenLab }) => {
             <div key={label} className={`px-4 py-3 border-[#DCE4EE] ${index < 2 ? 'border-b sm:border-b-0 sm:border-r' : ''}`}>
               <div className="flex items-center justify-between gap-2 text-[#163B65]">
                 <Icon className="w-4 h-4 shrink-0" />
-                <span className="text-[11px] font-mono-code uppercase text-[#526179] font-semibold tracking-wider">{label}</span>
+ <span className="text-[11px] uppercase text-[#526179] font-semibold tracking-wider">{label}</span>
               </div>
-              <div className="mt-1.5 font-tech-display text-lg font-bold text-[#163B65] tracking-tight">{title}</div>
+              <div className="mt-1.5  text-lg font-bold text-[#163B65] tracking-tight">{title}</div>
             </div>
           ))}
         </div>
 
         <div className="mt-3 grid lg:grid-cols-12">
-          <div className="lg:col-span-12 pt-3 flex flex-wrap items-center gap-x-6 gap-y-2.5 text-xs text-[#526179] font-mono-code border-t border-[#DCE4EE]/80">
+ <div className="lg:col-span-12 pt-3 flex flex-wrap items-center gap-x-6 gap-y-2.5 text-xs text-[#526179] border-t border-[#DCE4EE]/80">
             <span className="flex items-center gap-1.5 font-medium">
               <CheckCircle2 className="w-3.5 h-3.5 text-[#059669] shrink-0" />
               1Office 04/2026–nay · Vincom Retail 01/2025–01/2026

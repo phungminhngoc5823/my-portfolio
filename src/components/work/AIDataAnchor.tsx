@@ -45,10 +45,10 @@ export const AIDataAnchor = ({ onOpenLab, onZoom }: { onOpenLab: (tab: LabModule
             <div className="lg:col-span-7 space-y-3">
               <div className="flex flex-wrap gap-2 items-center">
                 <span className="text-[10px] font-mono-code tracking-[0.16em] text-[#94A3B8]">03</span>
-                <span className="px-2.5 py-1 rounded-full border border-[#163B65]/20 bg-white text-[10px] font-mono-code font-semibold uppercase tracking-wide text-[#163B65]">1Office</span>
+ <span className="px-2.5 py-1 rounded-full border border-[#163B65]/20 bg-white text-[10px] font-semibold uppercase tracking-wide text-[#163B65]">1Office</span>
                 <span className="text-[10px] font-mono-code text-[#94A3B8]">05/2026 – Hiện tại</span>
               </div>
-              <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 text-[11px] font-mono-code uppercase tracking-[0.16em] text-[#0D9488]">Case chính 03 · Product & AI <span className="normal-case tracking-normal rounded-full bg-[#0F766E] px-2.5 py-0.5 text-[10px] font-semibold text-white">Nên xem trước</span></div>
+ <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 text-[11px] uppercase tracking-[0.16em] text-[#0D9488]">Case chính 03 · Product & AI <span className="normal-case tracking-normal rounded-full bg-[#0F766E] px-2.5 py-0.5 text-[10px] font-semibold text-white">Nên xem trước</span></div>
               <h3 className="font-serif-title text-[28px] sm:text-[32px] lg:text-[42px] leading-[1.05] text-[#0F172A]">Sản phẩm AI & dữ liệu tại 1Office: 1AI, AI Readiness, ICP Scoring</h3>
             </div>
             <div className="order-2 lg:order-none lg:col-span-5 lg:col-start-8 lg:row-start-1 lg:row-span-2 lg:self-stretch">

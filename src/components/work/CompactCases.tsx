@@ -116,7 +116,7 @@ export const CompactCases = ({
           {image && <img src={image} alt="" loading="lazy" {...imgSize(image)} className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500" style={cover?.position ? { objectPosition: cover.position } : undefined} />}
         </div>
         <div className="flex flex-1 flex-col p-5 sm:p-6">
-          <div className="flex flex-wrap items-center gap-x-2 text-[11px] font-mono-code text-[#526179]">
+ <div className="flex flex-wrap items-center gap-x-2 text-[11px] text-[#526179]">
             <span className="text-[#0D9488]">{String(index + 6).padStart(2, '0')}</span>
             <span className="font-semibold uppercase tracking-wide text-[#163B65]">{project.company}</span>
             <span>{project.dateRange}</span>
@@ -127,7 +127,7 @@ export const CompactCases = ({
           <div className="mt-auto pt-4">
             <div className={`border-t border-[#E3E9F1] pt-3 flex ${large ? 'items-end justify-between gap-3' : 'flex-col items-start gap-2.5'}`}>
               <div className="min-w-0">
-                <div className="text-[10px] font-mono-code uppercase tracking-[0.12em] text-[#526179]">{content.evidenceLabel}</div>
+ <div className="text-[10px] uppercase tracking-[0.12em] text-[#526179]">{content.evidenceLabel}</div>
                 <div className="mt-0.5 text-[13px] font-semibold text-[#163B65]">{content.evidenceValue}</div>
               </div>
               <span className="shrink-0 inline-flex items-center gap-1.5 text-xs font-semibold text-[#163B65]">

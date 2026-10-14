@@ -23,7 +23,7 @@ export const ContactSection: React.FC = () => {
     <section id="contact" className="bg-gradient-to-b from-[#163B65] to-[#0F2540] text-white">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 md:py-24 text-center">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-          <div className="inline-flex items-center gap-2 text-[11px] font-mono-code uppercase tracking-[0.16em] text-[#5DCAA5] mb-5">
+ <div className="inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.16em] text-[#5DCAA5] mb-5">
             <span className="w-2 h-2 rounded-full bg-[#5DCAA5] animate-pulse" /> Open for opportunities
           </div>
           <h2 className="font-serif-title text-[30px] sm:text-4xl lg:text-5xl leading-[1.1] text-balance">Cùng trao đổi về bài toán Marketing bạn đang giải</h2>

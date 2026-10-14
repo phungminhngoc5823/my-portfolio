@@ -25,7 +25,7 @@ export const SupportingProjectRow = ({ project, index, open, onToggle, onZoom }:
         <div className="md:col-span-7 min-w-0">
           <div className="flex flex-wrap items-center gap-2 mb-2">
             <span className="text-[10px] font-mono-code text-[#0D9488]">{String(index + 6).padStart(2, '0')}</span>
-            <span className="text-[10px] font-mono-code font-semibold uppercase tracking-wide text-[#163B65]">{project.company}</span>
+ <span className="text-[10px] font-semibold uppercase tracking-wide text-[#163B65]">{project.company}</span>
             <span className="text-[10px] font-mono-code text-[#94A3B8]">{project.dateRange}</span>
           </div>
           <h3 className="font-serif-title text-xl sm:text-2xl text-[#0F172A] group-hover:text-[#163B65] transition-colors">{content.displayTitle}</h3>
@@ -33,7 +33,7 @@ export const SupportingProjectRow = ({ project, index, open, onToggle, onZoom }:
           <p className="text-[11px] text-[#526179] mt-3">{content.categoryLine}</p>
         </div>
         <div className="col-span-2 md:col-span-3 md:text-right flex md:block items-end justify-between gap-4 pt-1 md:pt-0">
-          <div className="md:mb-3"><div className="text-[9px] font-mono-code uppercase tracking-[0.14em] text-[#526179] font-semibold">{content.evidenceLabel}</div><div className="text-xs sm:text-sm font-semibold text-[#163B65] mt-1">{content.evidenceValue}</div></div>
+ <div className="md:mb-3"><div className="text-[9px] uppercase tracking-[0.14em] text-[#526179] font-semibold">{content.evidenceLabel}</div><div className="text-xs sm:text-sm font-semibold text-[#163B65] mt-1">{content.evidenceValue}</div></div>
           <span className="shrink-0 inline-flex items-center gap-2 text-xs font-semibold text-[#163B65]">
             {open ? 'Thu gọn' : 'Xem case'} <ChevronDown className={`w-4 h-4 transition-transform ${open ? 'rotate-180' : ''}`} />
           </span>
@@ -73,7 +73,7 @@ export const SupportingPanel = ({ project, onZoom }: { project: ExtendedProject;
                       {content.challenge?.length > 0 && <div><SectionLabel>{content.challengeTitle}</SectionLabel><ContentParagraphs paragraphs={content.challenge} /></div>}
                       {content.sections?.length > 0 && <div className="grid sm:grid-cols-2 gap-3">
                         {content.sections.map((section, idx) => <div key={idx} className="rounded-2xl border border-[#DCE4EE] bg-white p-4 sm:p-5">
-                          {section.kicker && <div className="text-[9px] font-mono-code uppercase tracking-[0.14em] text-[#0D9488] mb-2">{section.kicker}</div>}
+ {section.kicker && <div className="text-[9px] uppercase tracking-[0.14em] text-[#0D9488] mb-2">{section.kicker}</div>}
                           <h5 className="font-serif-title text-lg text-[#0F172A]">{section.title}</h5>
                           {section.paragraphs?.map((p,i)=><p key={i} className="text-xs text-[#475569] leading-relaxed mt-2">{p}</p>)}
                           {section.bullets && <ul className="mt-3 space-y-1.5">{section.bullets.map((b,i)=><li key={i} className="text-xs text-[#475569] flex gap-2"><span className="text-[#0D9488]">•</span><span>{b}</span></li>)}</ul>}
@@ -86,7 +86,7 @@ export const SupportingPanel = ({ project, onZoom }: { project: ExtendedProject;
               </div>
 
               {(project.galleryImages?.length || 0) > 0 && <div>
-                <div className="flex items-end justify-between gap-4 mb-4"><div><SectionLabel>Sản phẩm thực tế</SectionLabel><h5 className="font-serif-title text-2xl text-[#0F172A]">Tài liệu & sản phẩm</h5></div><span className="hidden sm:block text-[10px] font-mono-code text-[#94A3B8]">Bấm ảnh để phóng to</span></div>
+ <div className="flex items-end justify-between gap-4 mb-4"><div><SectionLabel>Sản phẩm thực tế</SectionLabel><h5 className="font-serif-title text-2xl text-[#0F172A]">Tài liệu & sản phẩm</h5></div><span className="hidden sm:block text-[10px] text-[#94A3B8]">Bấm ảnh để phóng to</span></div>
                 <div className={`grid gap-5 md:gap-6 items-start ${gallery.length <= 1 ? 'grid-cols-1' : gallery.length === 2 ? 'sm:grid-cols-2' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
                   {gallery.map((img) => <FixedShot key={img.url} src={img.url} title={img.title} subtitle={img.subtitle} onZoom={onZoom} frame={frame} />)}
                 </div>

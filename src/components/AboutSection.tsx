@@ -27,7 +27,7 @@ export const AboutSection: React.FC = () => {
             </div>
 
             <div className="p-5 sm:p-6 rounded-2xl bg-white border border-[#CBD5E1] shadow-sm">
-              <div className="inline-flex items-center gap-2 text-[10px] font-mono-code uppercase tracking-[0.14em] text-[#0D9488] font-semibold mb-4">
+ <div className="inline-flex items-center gap-2 text-[10px] uppercase tracking-[0.14em] text-[#0D9488] font-semibold mb-4">
                 <Sparkles className="w-3.5 h-3.5" /> Cách tôi làm việc
               </div>
               <p className="text-sm sm:text-[15px] text-[#475569] leading-relaxed" style={{ whiteSpace: 'pre-line' }}>{PERSONAL_INFO.bio}</p>
@@ -35,7 +35,7 @@ export const AboutSection: React.FC = () => {
           </div>
 
           <div className="lg:col-span-7 grid sm:grid-cols-2 gap-4">
-            <div className="sm:col-span-2 text-[11px] font-mono-code uppercase tracking-[0.14em] text-[#526179] font-semibold border-b border-[#CBD5E1] pb-2">Background &amp; Credentials</div>
+ <div className="sm:col-span-2 text-[11px] uppercase tracking-[0.14em] text-[#526179] font-semibold border-b border-[#CBD5E1] pb-2">Background &amp; Credentials</div>
             {university && (
               <div className="sm:col-span-2 p-5 sm:p-6 rounded-2xl bg-white border border-[#CBD5E1]">
                 <div className="flex items-start gap-4">
@@ -45,7 +45,7 @@ export const AboutSection: React.FC = () => {
                   <div className="min-w-0 flex-1">
                     <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
                       <div>
-                        <div className="text-[10px] font-mono-code uppercase tracking-[0.14em] text-[#526179] mb-1">Education</div>
+ <div className="text-[10px] uppercase tracking-[0.14em] text-[#526179] mb-1">Education</div>
                         <h3 className="font-serif-title text-xl sm:text-2xl text-[#0F172A]">{university.school}</h3>
                         <p className="text-sm font-medium text-[#163B65] mt-1">{university.major}</p>
                       </div>
@@ -61,10 +61,10 @@ export const AboutSection: React.FC = () => {
               <div className="p-5 rounded-2xl bg-white border border-[#CBD5E1]">
                 <div className="flex items-center gap-3 mb-4">
                   <Languages className="w-5 h-5 text-[#0D9488]" />
-                  <div className="text-[10px] font-mono-code uppercase tracking-[0.14em] text-[#526179]">Language</div>
+ <div className="text-[10px] uppercase tracking-[0.14em] text-[#526179]">Language</div>
                 </div>
                 <h3 className="text-sm font-semibold text-[#0F172A]">Tiếng Trung · HSK5</h3>
-                <div className="font-tech-display text-2xl font-bold text-[#163B65] mt-2">{hsk.score}</div>
+                <div className="text-2xl font-bold text-[#163B65] mt-2">{hsk.score}</div>
                 <p className="text-[11px] text-[#94A3B8] mt-2">09/2018 – 07/2021 · THPT Chuyên Thái Nguyên · Lớp chuyên tiếng Trung</p>
               </div>
             )}
@@ -73,10 +73,10 @@ export const AboutSection: React.FC = () => {
               <div className="p-5 rounded-2xl bg-white border border-[#CBD5E1]">
                 <div className="flex items-center gap-3 mb-4">
                   <Languages className="w-5 h-5 text-[#0D9488]" />
-                  <div className="text-[10px] font-mono-code uppercase tracking-[0.14em] text-[#526179]">Language</div>
+ <div className="text-[10px] uppercase tracking-[0.14em] text-[#526179]">Language</div>
                 </div>
                 <h3 className="text-sm font-semibold text-[#0F172A]">Tiếng Anh · TOEIC</h3>
-                <div className="font-tech-display text-2xl font-bold text-[#163B65] mt-2">{toeic.score}</div>
+                <div className="text-2xl font-bold text-[#163B65] mt-2">{toeic.score}</div>
               </div>
             )}
 

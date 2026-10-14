@@ -61,7 +61,7 @@ export const AutomationAnchor = ({
             return (
               <div key={section.title} className="grid md:grid-cols-12 gap-5 md:gap-10 py-6 border-b border-[#DCE4EE] last:border-b-0 items-center">
                 <div className={`md:col-span-6 ${index % 2 === 1 ? 'md:order-2' : ''}`}>
-                  <div className="text-[10px] font-mono-code uppercase tracking-[0.14em] text-[#0D9488] mb-2">0{index + 1} · {section.kicker}</div>
+ <div className="text-[10px] uppercase tracking-[0.14em] text-[#0D9488] mb-2">0{index + 1} · {section.kicker}</div>
                   <h5 className="font-serif-title text-xl sm:text-2xl text-[#0F172A]">{section.title}</h5>
                   <div className="mt-2 text-[15px] text-[#475569] leading-relaxed text-pretty">{section.paragraphs && <ContentParagraphs paragraphs={section.paragraphs} />}</div>
                 </div>
@@ -174,7 +174,7 @@ const EvidenceFold = ({ label, children }: { label: string; children: React.Reac
   <details className="group/fold mt-6 rounded-xl border border-[#DCE4EE] bg-white overflow-hidden">
     <summary className="cursor-pointer list-none min-h-[44px] px-4 py-3 flex items-center justify-between gap-3 text-xs font-semibold text-[#163B65]">
       <span>{label}</span>
-      <span className="text-[10px] font-mono-code uppercase tracking-[0.12em] text-[#526179]"><span className="group-open/fold:hidden">Mở xem</span><span className="hidden group-open/fold:inline">Thu gọn</span></span>
+ <span className="text-[10px] uppercase tracking-[0.12em] text-[#526179]"><span className="group-open/fold:hidden">Mở xem</span><span className="hidden group-open/fold:inline">Thu gọn</span></span>
     </summary>
     <div className="p-4 sm:p-5 border-t border-[#DCE4EE] space-y-6">{children}</div>
   </details>
@@ -200,7 +200,7 @@ const B2BStage = ({
   if (index - 1 !== active) return null;
   return (
     <div role="tabpanel" id={`b2b-panel-${index - 1}`} aria-labelledby={`b2b-tab-${index - 1}`} className="py-7 sm:py-9">
-      <div className="text-[10px] font-mono-code uppercase tracking-[0.14em] text-[#0D9488] mb-2">0{index} · {label}</div>
+ <div className="text-[10px] uppercase tracking-[0.14em] text-[#0D9488] mb-2">0{index} · {label}</div>
       <h5 className="font-serif-title text-2xl sm:text-3xl text-[#0F172A] leading-tight text-balance">{title}</h5>
       <div className="pt-6">{children}</div>
       {index < B2B_STAGES.length && (
@@ -295,8 +295,8 @@ export const B2BAnchor = ({
           <div className="grid grid-cols-2 lg:grid-cols-4 rounded-2xl border border-[#DCE4EE] bg-white/70 divide-x divide-y lg:divide-y-0 divide-[#DCE4EE] overflow-hidden">
             {[['Ebook', '3 ebook'], ['Landing page', '3 ebook + 1 B2B'], ['FB Ads · ebook Luật LĐ', '237 lead L1'], ['Landing page · ebook Luật LĐ', '82 lead L1']].map(([label, value]) => (
               <div key={label} className="px-4 py-4 sm:px-5">
-                <div className="text-[10px] font-mono-code uppercase tracking-[0.12em] text-[#526179]">{label}</div>
-                <div className="mt-1.5 font-tech-display text-base sm:text-lg font-bold text-[#163B65]">{value}</div>
+ <div className="text-[10px] uppercase tracking-[0.12em] text-[#526179]">{label}</div>
+                <div className="mt-1.5  text-base sm:text-lg font-bold text-[#163B65]">{value}</div>
               </div>
             ))}
           </div>
@@ -340,7 +340,7 @@ export const B2BAnchor = ({
                 <p className="text-base text-[#475569] leading-relaxed text-pretty"><span className="font-semibold text-[#0F172A]">Ví dụ: ebook Luật Lao động 2026. </span>Hai quảng cáo Facebook của ebook này không bao gồm toàn bộ nội dung pháp lý, mà mỗi bài chọn một vấn đề cụ thể, dễ nhận ra trong vận hành.</p>
                 {lawAds.map((ad) => (
                   <div key={ad.tag} className="border-l-2 border-[#0D9488] pl-4">
-                    <div className="text-[10px] font-mono-code uppercase tracking-[0.14em] text-[#0D9488] mb-1.5">{ad.tag}</div>
+ <div className="text-[10px] uppercase tracking-[0.14em] text-[#0D9488] mb-1.5">{ad.tag}</div>
                     <div className="font-serif-title text-xl text-[#0F172A] leading-snug mb-2">{ad.head}</div>
                     <p className="text-sm text-[#526179] leading-relaxed text-pretty">{ad.body}</p>
                   </div>
@@ -516,7 +516,7 @@ export const TikTokAnchor = ({ project, onZoom: _onZoom }: { project: ExtendedPr
         <a key={video.url} href={video.url} target="_blank" rel="noopener noreferrer" aria-label={video.title + ' — mở video TikTok'} className="group snap-start shrink-0 w-[46%] sm:w-[30%] lg:w-auto flex flex-col rounded-xl border border-[#DCE4EE] bg-white overflow-hidden hover:-translate-y-0.5 hover:border-[#0D9488]/35 transition-all">
           <img src={video.thumbnail} alt={video.title} width={633} height={844} loading="lazy" className="w-full aspect-[3/4] object-cover group-hover:scale-[1.02] transition-transform duration-300" />
           <div className="flex flex-1 flex-col p-3">
-            <div className="flex items-center justify-between gap-2 text-[11px] font-mono-code"><span className="text-[#0D9488]">0{idx+2}</span><span className="text-[#94A3B8]">Vincom TikTok</span></div>
+ <div className="flex items-center justify-between gap-2 text-[11px] "><span className="text-[#0D9488]">0{idx+2}</span><span className="text-[#94A3B8]">Vincom TikTok</span></div>
             <div className="mt-2 text-[13px] font-semibold text-[#0F172A] leading-snug">{video.title}</div>
             <div className="mt-3 inline-flex items-center gap-1 text-[11px] font-semibold text-[#163B65]">Mở video TikTok <ExternalLink className="w-3 h-3"/></div>
           </div>
@@ -531,14 +531,14 @@ export const TikTokAnchor = ({ project, onZoom: _onZoom }: { project: ExtendedPr
         <div className="grid lg:grid-cols-12 gap-6 lg:gap-10 items-end">
           <div className="lg:col-span-7 space-y-3">
             <ProjectMeta project={project} index={5}/>
-            <div className="text-[11px] font-mono-code uppercase tracking-[0.16em] text-[#0D9488]">Short-form Content</div>
+ <div className="text-[11px] uppercase tracking-[0.16em] text-[#0D9488]">Short-form Content</div>
             <h3 className="font-serif-title text-[28px] sm:text-[32px] lg:text-[42px] leading-[1.05] text-[#0F172A]">{content.displayTitle}</h3>
           </div>
           <div className="lg:col-span-5 grid grid-cols-2 gap-3">
             {(project.evidence?.metrics || []).filter((metric) => !/tổng/i.test(metric.label)).map((metric) => (
               <div key={metric.label} className="rounded-2xl border border-[#DCE4EE] bg-white/70 px-4 py-3.5">
-                <div className="text-[10px] font-mono-code uppercase tracking-[0.14em] text-[#526179]">{metric.label}</div>
-                <div className="mt-1 font-tech-display text-lg font-semibold text-[#0F172A] leading-snug">{metric.value}</div>
+ <div className="text-[10px] uppercase tracking-[0.14em] text-[#526179]">{metric.label}</div>
+                <div className="mt-1  text-lg font-semibold text-[#0F172A] leading-snug">{metric.value}</div>
               </div>
             ))}
           </div>
@@ -552,7 +552,7 @@ export const TikTokAnchor = ({ project, onZoom: _onZoom }: { project: ExtendedPr
         <div className="rounded-3xl border border-[#DCE4EE] bg-gradient-to-r from-[#0F172A] to-[#163B65] p-6 sm:p-8 text-white">
           <div className="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
             <div>
-              <div className="text-[10px] font-mono-code uppercase tracking-[0.15em] text-white/50 mb-2">Kết quả</div>
+ <div className="text-[10px] uppercase tracking-[0.15em] text-white/50 mb-2">Kết quả</div>
               <div className="font-serif-title text-2xl sm:text-3xl leading-tight text-balance">Một format giống nhau không tạo ra cùng một phản ứng.</div>
             </div>
             <p className="text-base text-white/75 leading-relaxed text-pretty">Sáu video đạt tổng 241K+ lượt xem organic, nhưng hiệu quả rất khác nhau: THE LITTY đạt 225.1K lượt xem và chiếm phần lớn tổng, trong khi năm video còn lại từ 1.7K đến 4.3K.</p>
@@ -566,7 +566,7 @@ export const TikTokAnchor = ({ project, onZoom: _onZoom }: { project: ExtendedPr
               <div className="p-3">
                 <div className="flex items-center gap-2 text-[11px] font-mono-code"><span className="text-[#0D9488]">01</span><span className="text-[#94A3B8]">Vincom TikTok</span></div>
                 <div className="mt-1.5 text-[13px] font-semibold text-[#0F172A] leading-snug">{heroVideo.title}</div>
-                <div className="mt-2 flex items-end justify-between gap-2"><span className="font-tech-display text-2xl leading-none font-semibold text-[#0F172A]">{heroVideo.views}</span><span className="inline-flex items-center gap-1 text-[11px] font-semibold text-[#163B65]">Mở video <ExternalLink className="w-3 h-3"/></span></div>
+                <div className="mt-2 flex items-end justify-between gap-2"><span className="text-2xl leading-none font-semibold text-[#0F172A]">{heroVideo.views}</span><span className="inline-flex items-center gap-1 text-[11px] font-semibold text-[#163B65]">Mở video <ExternalLink className="w-3 h-3"/></span></div>
               </div>
             </a>}
             <div>
@@ -577,7 +577,7 @@ export const TikTokAnchor = ({ project, onZoom: _onZoom }: { project: ExtendedPr
 
           {supportingVideos.length > 0 && (
             <details open className="group mt-6 rounded-xl border border-[#DCE4EE] bg-white overflow-hidden">
-              <summary className="cursor-pointer list-none min-h-[44px] px-4 py-3 flex items-center justify-between gap-3 text-xs font-semibold text-[#163B65]"><span>Xem 5 video còn lại</span><span className="text-[10px] font-mono-code uppercase tracking-[0.12em] text-[#526179] group-open:hidden">Mở xem</span><span className="text-[10px] font-mono-code uppercase tracking-[0.12em] text-[#526179] hidden group-open:inline">Thu gọn</span></summary>
+ <summary className="cursor-pointer list-none min-h-[44px] px-4 py-3 flex items-center justify-between gap-3 text-xs font-semibold text-[#163B65]"><span>Xem 5 video còn lại</span><span className="text-[10px] uppercase tracking-[0.12em] text-[#526179] group-open:hidden">Mở xem</span><span className="text-[10px] uppercase tracking-[0.12em] text-[#526179] hidden group-open:inline">Thu gọn</span></summary>
               <div className="p-4 border-t border-[#DCE4EE]"><SupportingVideoGrid/></div>
             </details>
           )}

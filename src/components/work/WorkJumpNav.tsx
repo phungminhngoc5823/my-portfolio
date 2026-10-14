@@ -55,7 +55,7 @@ export const FlagshipJumpNav = ({ activeId }: { activeId: string }) => {
         );
       })}
     </div>
-    <div className="md:hidden pointer-events-none absolute right-0 top-0 bottom-0 flex items-center pl-7 pr-2 bg-gradient-to-r from-transparent via-[#F8FAFC]/94 to-[#F8FAFC]"><span className="w-7 h-7 rounded-full border border-[#DCE4EE] bg-white/95 flex items-center justify-center text-sm font-mono-code font-bold text-[#475569] shadow-xs" aria-hidden="true">↔</span></div>
+ <div className="md:hidden pointer-events-none absolute right-0 top-0 bottom-0 flex items-center pl-7 pr-2 bg-gradient-to-r from-transparent via-[#F8FAFC]/94 to-[#F8FAFC]"><span className="w-7 h-7 rounded-full border border-[#DCE4EE] bg-white/95 flex items-center justify-center text-sm font-bold text-[#475569] shadow-xs" aria-hidden="true">↔</span></div>
   </div>
   );
 };

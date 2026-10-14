@@ -116,7 +116,7 @@ export const Header: React.FC<HeaderProps> = ({ onContactClick }) => {
             <span className="block font-serif-title text-base sm:text-lg font-semibold text-[#0F172A] tracking-tight group-hover:text-[#163B65] transition-colors truncate">
               {PERSONAL_INFO.name}
             </span>
-            <span className="block truncate text-[11px] font-mono-code text-[#526179] uppercase tracking-wider -mt-1">
+ <span className="block truncate text-[11px] text-[#526179] uppercase tracking-wider -mt-1">
               Marketing Portfolio
             </span>
           </div>
@@ -146,7 +146,7 @@ export const Header: React.FC<HeaderProps> = ({ onContactClick }) => {
         <div className="hidden lg:flex items-center gap-3">
           <a
             href={`mailto:${PERSONAL_INFO.email}`}
-            className="text-xs font-mono-code px-3 py-2 rounded-full border border-[#CBD5E1] text-[#475569] hover:border-[#163B65] hover:text-[#163B65] transition-all flex items-center gap-1.5"
+ className="text-xs px-3 py-2 rounded-full border border-[#CBD5E1] text-[#475569] hover:border-[#163B65] hover:text-[#163B65] transition-all flex items-center gap-1.5"
           >
             <Mail className="w-3.5 h-3.5" />
             {PERSONAL_INFO.email}
@@ -196,7 +196,7 @@ export const Header: React.FC<HeaderProps> = ({ onContactClick }) => {
             })}
           </nav>
           <div className="pt-4 flex flex-col gap-3">
-            <a href={`tel:${PERSONAL_INFO.phone}`} className="min-h-[44px] text-sm font-mono-code text-[#475569] flex items-center gap-2 py-2">
+ <a href={`tel:${PERSONAL_INFO.phone}`} className="min-h-[44px] text-sm text-[#475569] flex items-center gap-2 py-2">
               <Phone className="w-4 h-4 text-[#163B65]" />
               {PERSONAL_INFO.phone}
             </a>

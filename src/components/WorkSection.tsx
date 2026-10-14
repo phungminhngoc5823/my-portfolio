@@ -74,8 +74,8 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ onOpenLab }) => {
         <details className="lg:col-span-12 group rounded-2xl border border-[#DCE4EE] bg-white/70">
           <summary className="cursor-pointer list-none min-h-[44px] px-4 py-2.5 flex items-center justify-between gap-3 text-xs font-semibold text-[#163B65]">
             <span>Thuật ngữ thường gặp trong các case</span>
-            <span className="text-[10px] font-mono-code uppercase tracking-[0.12em] text-[#526179] group-open:hidden">Mở</span>
-            <span className="text-[10px] font-mono-code uppercase tracking-[0.12em] text-[#526179] hidden group-open:inline">Thu gọn</span>
+ <span className="text-[10px] uppercase tracking-[0.12em] text-[#526179] group-open:hidden">Mở</span>
+ <span className="text-[10px] uppercase tracking-[0.12em] text-[#526179] hidden group-open:inline">Thu gọn</span>
           </summary>
           <dl className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-3 px-4 pb-4 pt-1 text-sm text-[#475569] leading-relaxed">
             {GLOSSARY.map(([term, meaning]) => (

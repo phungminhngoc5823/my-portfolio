@@ -31,8 +31,8 @@ export const MetricStrip = ({ project }: { project: ExtendedProject }) => {
           key={`${metric.label}-${index}`}
           className={`p-5 min-h-[76px] flex flex-col justify-center border-[#DCE4EE] ${dividers(index)}`}
         >
-          <div className="text-[10px] font-mono-code uppercase tracking-[0.14em] text-[#526179]">{metric.label}</div>
-          <div className="mt-1 font-tech-display text-lg font-semibold text-[#0F172A]">{metric.value}</div>
+ <div className="text-[10px] uppercase tracking-[0.14em] text-[#526179]">{metric.label}</div>
+          <div className="mt-1  text-lg font-semibold text-[#0F172A]">{metric.value}</div>
         </div>
       ))}
     </div>
@@ -48,7 +48,7 @@ export const Attribution = ({ content, text }: { content: ProjectContent; text?:
     <div className="flex gap-3 rounded-xl border border-[#0D9488]/20 bg-[#ECFDF5]/55 p-4 text-xs text-[#475569] leading-relaxed">
       <Quote className="w-4 h-4 text-[#0D9488] shrink-0 mt-0.5" />
       <div>
-        <div className="text-[10px] font-mono-code uppercase tracking-[0.12em] text-[#0D9488] font-semibold mb-1">Ghi chú phạm vi</div>
+ <div className="text-[10px] uppercase tracking-[0.12em] text-[#0D9488] font-semibold mb-1">Ghi chú phạm vi</div>
         <span>{note}</span>
       </div>
     </div>
@@ -58,7 +58,7 @@ export const Attribution = ({ content, text }: { content: ProjectContent; text?:
 export const ProjectMeta = ({ project, index }: { project: ExtendedProject; index: number }) => (
   <div className="flex flex-wrap gap-2 items-center">
     <span className="text-[10px] font-mono-code tracking-[0.16em] text-[#94A3B8]">{String(index + 1).padStart(2, '0')}</span>
-    <span className={`px-2.5 py-1 rounded-full border text-[10px] font-mono-code font-semibold uppercase tracking-wide ${companyTone(project.company)}`}>
+ <span className={`px-2.5 py-1 rounded-full border text-[10px] font-semibold uppercase tracking-wide ${companyTone(project.company)}`}>
       {project.company}
     </span>
     <span className="text-[10px] font-mono-code text-[#94A3B8]">{project.dateRange}</span>
@@ -82,7 +82,7 @@ export const LabCta = ({ project, onOpenLab }: { project: ExtendedProject; onOpe
 };
 
 export const SectionLabel = ({ children }: { children: React.ReactNode }) => (
-  <div className="text-[11px] font-mono-code uppercase tracking-[0.14em] text-[#526179] font-bold mb-2">{children}</div>
+ <div className="text-[11px] uppercase tracking-[0.14em] text-[#526179] font-bold mb-2">{children}</div>
 );
 
 export type ArtifactFrame = 'default' | 'ui' | 'slide' | 'poster' | 'email' | 'wide' | 'browser';
@@ -202,7 +202,7 @@ export const ArtifactFigure = ({
         <span className="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/96 border border-[#DCE4EE] text-[#163B65] flex items-center justify-center transition-opacity shadow-sm opacity-100 sm:opacity-0 sm:group-hover:opacity-100">
           <Maximize2 className="w-4 h-4" />
         </span>
-        {mobileZoomHint && <span className="sm:hidden absolute bottom-3 right-3 inline-flex items-center gap-1.5 rounded-full bg-[#0F172A]/88 px-3 py-1.5 text-[10px] font-mono-code font-semibold text-white shadow-md"><Maximize2 className="w-3.5 h-3.5" />Chạm để phóng to</span>}
+ {mobileZoomHint && <span className="sm:hidden absolute bottom-3 right-3 inline-flex items-center gap-1.5 rounded-full bg-[#0F172A]/88 px-3 py-1.5 text-[10px] font-semibold text-white shadow-md"><Maximize2 className="w-3.5 h-3.5" />Chạm để phóng to</span>}
       </button>
       <figcaption className="px-1 leading-relaxed max-w-[68ch]">
         <div className="text-[12px] sm:text-[13px] font-semibold text-[#334155]">{title}</div>
@@ -236,8 +236,8 @@ export const CompactEvidenceFigure = ({
   <details open className="group border-t border-[#DCE4EE]">
     <summary className={`cursor-pointer list-none ${dense ? 'min-h-9 py-2' : 'min-h-[40px] py-2.5'} flex items-center justify-between gap-3 text-xs font-semibold text-[#163B65]`}>
       <span>{label}</span>
-      <span className="text-[10px] font-mono-code uppercase tracking-[0.12em] text-[#526179] group-open:hidden">Mở xem</span>
-      <span className="text-[10px] font-mono-code uppercase tracking-[0.12em] text-[#526179] hidden group-open:inline">Thu gọn</span>
+ <span className="text-[10px] uppercase tracking-[0.12em] text-[#526179] group-open:hidden">Mở xem</span>
+ <span className="text-[10px] uppercase tracking-[0.12em] text-[#526179] hidden group-open:inline">Thu gọn</span>
     </summary>
     <div className={`${dense ? 'pt-1.5' : 'pt-2'} pb-1`}>
       <ArtifactFigure src={src} title={title} subtitle={subtitle} onZoom={onZoom} frame={frame} variant={variant} className={figureClassName} mobileZoomHint />
@@ -296,14 +296,14 @@ export const ScopeNote = ({ content }: { content: ProjectContent }) => {
 export const ContentClosing = ({ content }: { content: ProjectContent }) => (!content.closing?.length && !content.scopeNote) ? null : (
   <div className="pt-6 border-t border-[#CBD5E1] grid lg:grid-cols-12 gap-4 lg:gap-8 items-start">
     <div className="lg:col-span-3">
-      <div className="text-[11px] font-mono-code uppercase tracking-[0.14em] text-[#163B65] font-semibold">{content.closingTitle}</div>
+ <div className="text-[11px] uppercase tracking-[0.14em] text-[#163B65] font-semibold">{content.closingTitle}</div>
     </div>
     <div className="lg:col-span-9 space-y-3">
       {content.closing.map((paragraph, index) => <p key={index} className="text-base text-[#475569] leading-relaxed text-pretty">{paragraph}</p>)}
       {content.scopeNote && (
         <div className="flex gap-3 pt-3 text-xs text-[#526179] leading-relaxed">
           <Quote className="w-4 h-4 text-[#0D9488] shrink-0 mt-0.5" />
-          <div><div className="mb-1 text-[10px] font-mono-code uppercase tracking-[0.12em] text-[#0D9488] font-semibold">Phạm vi & attribution</div>{content.scopeNote}</div>
+ <div><div className="mb-1 text-[10px] uppercase tracking-[0.12em] text-[#0D9488] font-semibold">Phạm vi & attribution</div>{content.scopeNote}</div>
         </div>
       )}
     </div>

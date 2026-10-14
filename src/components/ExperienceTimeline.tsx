@@ -41,7 +41,7 @@ export const ExperienceTimeline: React.FC = () => {
                 </span>
                 <h3 className="font-serif-title font-semibold text-xl text-[#0F172A] leading-snug">{item.role}</h3>
                 <p className="text-sm font-medium text-[#163B65] flex items-center gap-1.5"><Building2 className="w-4 h-4 shrink-0" /><span>{item.company}</span></p>
-                <span className="text-[11px] font-mono-code text-[#0D9488] font-semibold uppercase tracking-wider block">{item.type}</span>
+ <span className="text-[11px] text-[#0D9488] font-semibold uppercase tracking-wider block">{item.type}</span>
               </div>
 
               <div className="md:col-span-8 space-y-3">
@@ -54,7 +54,7 @@ export const ExperienceTimeline: React.FC = () => {
                 </ul>
                 {item.achievements.length > 0 && (
                   <div className="pt-1">
-                    <h4 className="text-xs font-mono-code font-semibold uppercase text-[#526179] tracking-wider mb-2">Các hạng mục thực hiện chính:</h4>
+ <h4 className="text-xs font-semibold uppercase text-[#526179] tracking-wider mb-2">Các hạng mục thực hiện chính:</h4>
                     <ul className="space-y-2">
                       {item.achievements.map((ach) => (
                         <li key={ach} className="flex gap-3 text-[15px] text-[#0F172A] leading-relaxed">

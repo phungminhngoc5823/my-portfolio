@@ -37,7 +37,7 @@ export const MarketingLab: React.FC<MarketingLabProps> = ({ activeTab }) => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 sm:pt-16 md:pt-20 pb-6 sm:pb-8 relative">
         <div>
-            <div className="inline-flex items-center gap-2 text-[10px] font-mono-code uppercase tracking-[0.16em] text-[#0D9488] mb-4 font-semibold">
+ <div className="inline-flex items-center gap-2 text-[10px] uppercase tracking-[0.16em] text-[#0D9488] mb-4 font-semibold">
               <FlaskConical className="w-4 h-4" /> Marketing Lab
             </div>
             <h2 className="font-serif-title text-[30px] sm:text-4xl lg:text-5xl text-[#0F172A] leading-[1.08] text-balance">Tools, systems & experiments — phục vụ bài toán Marketing.</h2>
