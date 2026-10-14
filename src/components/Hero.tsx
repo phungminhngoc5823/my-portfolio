@@ -10,10 +10,6 @@ interface HeroProps {
 }
 
 export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenLab }) => {
-  // Split after the first sentence-ending mark (works for ".", "。"); no lookbehind so older Safari can parse it.
-  const heroTitleParts = (PERSONAL_INFO.heroTitle.match(/[^.。]+[.。]?/g) || [PERSONAL_INFO.heroTitle]).map((part) => part.trim());
-  const heroTitleFirst = heroTitleParts[0] || '';
-  const heroTitleSecond = heroTitleParts.slice(1).join(' ');
   const heroDescriptionParts = PERSONAL_INFO.heroDescription.split('\n\n');
 
   return (
@@ -40,12 +36,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenLab }) => {
               </span>
             </div>
 
-            <h1 className="font-serif-title text-[34px] sm:text-4xl md:text-5xl lg:text-[clamp(34px,6.2vh,52px)] font-normal text-[#0F172A] leading-[1.1] tracking-tight text-balance">
-              <span className="italic font-normal text-[#334155]">{heroTitleFirst}</span>{' '}
-              <br className="hidden sm:inline" />
-              <span className="font-serif-title font-semibold text-[#163B65]">
-                {heroTitleSecond}
-              </span>
+            <h1 className="font-serif-title text-[34px] sm:text-4xl md:text-5xl lg:text-[clamp(34px,6.2vh,52px)] font-medium not-italic text-[#163B65] leading-[1.1] tracking-tight text-balance">
+              {PERSONAL_INFO.heroTitle}
             </h1>
 
             <div className="max-w-[56rem] space-y-2.5">
