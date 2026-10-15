@@ -108,10 +108,7 @@ export const Header: React.FC<HeaderProps> = ({ onContactClick }) => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between min-h-[44px]">
-        <a href="#" className="group flex min-h-[44px] min-w-0 items-center gap-3 text-left" aria-label="Về đầu trang — Phùng Minh Ngọc">
-          <div className="w-9 h-9 shrink-0 rounded-full bg-[#163B65] text-white flex items-center justify-center font-serif-title font-medium text-base shadow-xs group-hover:scale-105 transition-transform">
-            N
-          </div>
+        <a href="#" className="group flex min-h-[44px] min-w-0 items-center text-left" aria-label="Về đầu trang — Phùng Minh Ngọc">
           <div className="min-w-0">
             <span className="block font-serif-title text-base sm:text-lg font-semibold text-[#0F172A] tracking-tight group-hover:text-[#163B65] transition-colors truncate">
               {PERSONAL_INFO.name}
