@@ -68,10 +68,18 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ onOpenLab }) => {
   }, [lightbox, closeLightbox]);
 
   return <section id="projects" className="bg-[#F8FAFC] border-b border-[#DCE4EE]">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 md:pt-20">
-      <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} className="grid lg:grid-cols-12 gap-6 lg:gap-10 items-end pb-6 sm:pb-8">
-        <div className="lg:col-span-12 flex flex-col gap-3 md:flex-row md:items-end md:justify-between md:gap-10"><h2 className="font-serif-title text-[30px] sm:text-4xl lg:text-5xl text-[#0F172A] leading-[1.08] shrink-0">Selected Work</h2><div className="md:max-w-[640px] md:text-right space-y-1.5 text-sm text-[#526179] leading-relaxed text-pretty"><p>Các dự án dưới đây bao gồm cả phần định hướng đến triển khai và đo lường. Với những chương trình kết hợp với team/liên phòng ban, con số chung là kết quả của cả team; phần việc của tôi được ghi rõ trong từng dự án.</p><p className="text-xs text-[#526179]"><span className="font-semibold text-[#0D9488]">Gợi ý nếu chỉ có vài phút: case 01 và 03.</span> Số liệu tính đến 10/2026; ảnh minh chứng là bản gốc đã triển khai, giữ nguyên tiếng Việt.</p></div></div>
-        <details className="lg:col-span-12 group rounded-2xl border border-[#DCE4EE] bg-white/70">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-12 md:pt-14">
+      <motion.div initial={{opacity:0,y:12}} whileInView={{opacity:1,y:0}} viewport={{once:true}} className="pb-5 sm:pb-6">
+        <div className="max-w-4xl space-y-2.5">
+          <h2 className="font-serif-title text-[30px] sm:text-4xl lg:text-5xl text-[#0F172A] leading-[1.08]">Selected Work</h2>
+          <p className="text-sm sm:text-[15px] text-[#526179] leading-relaxed">
+            Các dự án thể hiện quá trình định hướng, triển khai và đo lường. Với dự án phối hợp nhiều nhóm, kết quả chung thuộc về tập thể; phạm vi đóng góp cá nhân được ghi rõ trong từng case.
+          </p>
+          <p className="text-xs sm:text-[13px] text-[#526179] leading-relaxed">
+            <span className="font-semibold text-[#0F766E]">Gợi ý xem nhanh: case 01 và 03.</span> Số liệu tính đến 10/2026; ảnh minh chứng giữ nguyên tiếng Việt.
+          </p>
+        </div>
+        <details className="group mt-4 max-w-4xl rounded-xl border border-[#DCE4EE] bg-white/70">
           <summary className="cursor-pointer list-none min-h-[44px] px-4 py-2.5 flex items-center justify-between gap-3 text-xs font-semibold text-[#163B65]">
             <span>Thuật ngữ thường gặp trong các case</span>
  <span className="text-[10px] uppercase tracking-[0.12em] text-[#526179] group-open:hidden">Mở</span>

@@ -3360,6 +3360,26 @@
     "Không thể sao chép": [
       "Unable to copy",
       "无法复制"
+    ],
+    "Xem chi tiết landing page B2B (3 ảnh)": [
+      "View B2B landing page details (3 images)",
+      "查看 B2B 落地页详情（3 张图片）"
+    ],
+    "Bấm ảnh để xem đầy đủ.": [
+      "Click an image to view it in full.",
+      "点击图片查看完整内容。"
+    ],
+    "Các dự án thể hiện quá trình định hướng, triển khai và đo lường. Với dự án phối hợp nhiều nhóm, kết quả chung thuộc về tập thể; phạm vi đóng góp cá nhân được ghi rõ trong từng case.": [
+      "These projects cover planning, execution and measurement. For cross-team work, shared outcomes belong to the team; my direct contributions are identified in each case.",
+      "这些项目涵盖规划、执行与衡量。对于跨团队合作项目，整体成果归属于团队；我在每个案例中明确说明个人贡献。"
+    ],
+    "Gợi ý xem nhanh: case 01 và 03.": [
+      "Short on time? Start with cases 01 and 03.",
+      "时间有限？建议先看案例 01 和 03。"
+    ],
+    "Số liệu tính đến 10/2026; ảnh minh chứng giữ nguyên tiếng Việt.": [
+      "Figures are current as of October 2026; original evidence images remain in Vietnamese.",
+      "数据截至 2026 年 10 月；原始成果截图保留越南语。"
     ]
   }
 }

@@ -245,7 +245,6 @@ export const B2BAnchor = ({
 
   const { open, toggle, detailsId } = useCaseDetails(`project-${project.id}`);
   const [stage, setStage] = React.useState(0);
-  const [lpShot, setLpShot] = React.useState(0);
   const goStage = (next: number) => {
     setStage(next);
     requestAnimationFrame(() => document.getElementById('b2b-stage-tabs')?.scrollIntoView({ block: 'start', behavior: 'smooth' }));
@@ -384,14 +383,24 @@ export const B2BAnchor = ({
               </div>
             )}
             {b2bShots.length > 0 && (
-              <div className="mt-8 pt-8 border-t border-dashed border-[#CBD5E1]">
-                <div className="flex flex-wrap gap-2 mb-4" role="group" aria-label="Các phần của landing page B2B">
-                  {b2bShots.map((image, i) => (
-                    <button key={image.url} type="button" aria-pressed={i === lpShot} onClick={() => setLpShot(i)} className={`inline-flex min-h-[40px] items-center px-4 rounded-full border text-xs font-semibold transition-colors ${i === lpShot ? 'bg-[#163B65] border-[#163B65] text-white' : 'bg-white border-[#CBD5E1] text-[#475569] hover:border-[#163B65] hover:text-[#163B65]'}`}>{image.title.split(' — ')[1] || image.title}</button>
+              <EvidenceFold label="Xem chi tiết landing page B2B (3 ảnh)">
+                <p className="text-xs text-[#526179]">Bấm ảnh để xem đầy đủ.</p>
+                <div className="grid gap-3 sm:grid-cols-3">
+                  {b2bShots.map((image) => (
+                    <figure key={image.url} className="min-w-0">
+                      <button
+                        type="button"
+                        onClick={() => onZoom(image.url, image.title)}
+                        aria-label={image.title}
+                        className="block w-full rounded-xl border border-[#DCE4EE] bg-[#F8FAFC] p-2 hover:border-[#0D9488] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0D9488] transition-colors cursor-zoom-in"
+                      >
+                        <img src={image.url} alt={image.title} {...imgSize(image.url)} loading="lazy" className="w-full h-36 md:h-40 object-contain" />
+                      </button>
+                      <figcaption className="mt-2 text-xs font-medium text-[#475569]">{image.title.split(' — ')[1] || image.title}</figcaption>
+                    </figure>
                   ))}
                 </div>
-                {b2bShots[lpShot] && <FixedShot key={b2bShots[lpShot].url} src={b2bShots[lpShot].url} title={b2bShots[lpShot].title} subtitle={b2bShots[lpShot].subtitle} onZoom={onZoom} frame="aspect-[2/1]" fit="cover" />}
-              </div>
+              </EvidenceFold>
             )}
           </B2BStage>
 
