@@ -1,47 +1,96 @@
-import React, { useState } from 'react';
-import { ArrowUpRight, Check, Copy, Mail, MapPin, Phone } from 'lucide-react';
-import { motion } from 'motion/react';
+import React, { useEffect, useRef, useState } from 'react';
+import { Check, Mail, MapPin, Phone } from 'lucide-react';
 import { PERSONAL_INFO } from '../data/portfolioData';
 
+type ContactField = 'email' | 'phone';
+type CopyFeedback = { field: ContactField; success: boolean };
+
 export const ContactSection: React.FC = () => {
-  const [copied, setCopied] = useState(false);
-  const subject = 'Trao đổi về cơ hội Marketing';
-  const mailto = `mailto:${PERSONAL_INFO.email}?subject=${encodeURIComponent(subject)}`;
+  const [feedback, setFeedback] = useState<CopyFeedback | null>(null);
+  const resetTimer = useRef<number | null>(null);
   const phoneLabel = PERSONAL_INFO.phone.replace(/(\d{4})(\d{3})(\d{3})/, '$1 $2 $3');
 
-  const handleCopyEmail = async () => {
+  useEffect(() => () => {
+    if (resetTimer.current !== null) window.clearTimeout(resetTimer.current);
+  }, []);
+
+  const handleCopy = async (field: ContactField) => {
+    const value = field === 'email' ? PERSONAL_INFO.email : PERSONAL_INFO.phone;
+    let success = false;
+
+    // Clipboard API is available on HTTPS; support older browsers as a fallback.
     try {
-      await navigator.clipboard.writeText(PERSONAL_INFO.email);
-      setCopied(true);
-      window.setTimeout(() => setCopied(false), 1600);
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(value);
+        success = true;
+      }
     } catch {
-      window.location.href = mailto;
+      // Fall back to the browser's selection-based clipboard command.
     }
+
+    if (!success) {
+      const textarea = document.createElement('textarea');
+      textarea.value = value;
+      textarea.readOnly = true;
+      textarea.style.position = 'fixed';
+      textarea.style.left = '-9999px';
+      document.body.appendChild(textarea);
+      const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+      textarea.select();
+      try {
+        success = document.execCommand('copy');
+      } catch {
+        success = false;
+      } finally {
+        textarea.remove();
+        previousFocus?.focus({ preventScroll: true });
+      }
+    }
+
+    setFeedback({ field, success });
+    if (resetTimer.current !== null) window.clearTimeout(resetTimer.current);
+    resetTimer.current = window.setTimeout(() => setFeedback(null), 2200);
   };
 
   return (
-    <section id="contact" className="bg-gradient-to-b from-[#163B65] to-[#0F2540] text-white">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 md:py-24 text-center">
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
- <div className="inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.16em] text-[#5DCAA5] mb-5">
-            <span className="w-2 h-2 rounded-full bg-[#5DCAA5] animate-pulse" /> Open for opportunities
-          </div>
-          <h2 className="font-serif-title text-[30px] sm:text-4xl lg:text-5xl leading-[1.1] text-balance">Cùng trao đổi về bài toán Marketing bạn đang giải</h2>
-          <p className="text-base sm:text-lg text-white/75 leading-relaxed mt-5 text-pretty">
-            Nếu các dự án tôi đã thực hiện phù hợp với bài toán đội ngũ đang giải, tôi rất sẵn lòng trao đổi sâu hơn về cách tiếp cận và những phần việc tôi trực tiếp phụ trách.
-          </p>
-          <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <a href={mailto} className="inline-flex min-h-[48px] items-center gap-2 px-6 py-3 rounded-xl bg-white text-[#163B65] text-sm font-semibold hover:bg-[#E6EEF7] transition-colors"><Mail className="w-4 h-4" /> Gửi email <ArrowUpRight className="w-4 h-4" /></a>
-            <button type="button" onClick={handleCopyEmail} className="inline-flex min-h-[48px] items-center gap-2 px-6 py-3 rounded-xl border border-white/35 text-white text-sm font-semibold hover:bg-white/10 transition-colors">
-              {copied ? <Check className="w-4 h-4 text-[#5DCAA5]" /> : <Copy className="w-4 h-4" />} {copied ? 'Đã sao chép' : 'Sao chép email'}
-            </button>
-          </div>
-          <div className="mt-8 flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-white/80">
-            <a href={mailto} className="inline-flex min-h-[40px] items-center gap-2 break-all hover:text-[#5DCAA5] transition-colors"><Mail className="w-4 h-4 text-[#5DCAA5]" /> {PERSONAL_INFO.email}</a>
-            <a href={`tel:${PERSONAL_INFO.phone}`} className="inline-flex min-h-[40px] items-center gap-2 hover:text-[#5DCAA5] transition-colors"><Phone className="w-4 h-4 text-[#5DCAA5]" /> {phoneLabel}</a>
-            <span className="inline-flex min-h-[40px] items-center gap-2"><MapPin className="w-4 h-4 text-[#5DCAA5]" /> {PERSONAL_INFO.location}</span>
-          </div>
-        </motion.div>
+    <section id="contact" aria-label="Liên hệ" className="bg-gradient-to-b from-[#163B65] to-[#0F2540] text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 sm:py-6">
+        <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-2 text-sm text-white/85">
+          <button
+            type="button"
+            onClick={() => void handleCopy('email')}
+            title="Sao chép email"
+            className="group inline-flex min-h-[44px] max-w-full items-center gap-2 text-left cursor-copy rounded-md px-1 hover:text-white transition-colors"
+          >
+            {feedback?.field === 'email' && feedback.success
+              ? <Check className="w-4 h-4 shrink-0 text-[#5DCAA5]" />
+              : <Mail className="w-4 h-4 shrink-0 text-[#5DCAA5]" />}
+            <span className="break-all group-hover:underline underline-offset-4">{PERSONAL_INFO.email}</span>
+            <span aria-live="polite" className="shrink-0 text-xs text-[#5DCAA5]">
+              {feedback?.field === 'email' ? (feedback.success ? 'Đã sao chép' : 'Không thể sao chép') : ''}
+            </span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => void handleCopy('phone')}
+            title="Sao chép số điện thoại"
+            className="group inline-flex min-h-[44px] items-center gap-2 cursor-copy rounded-md px-1 hover:text-white transition-colors"
+          >
+            {feedback?.field === 'phone' && feedback.success
+              ? <Check className="w-4 h-4 shrink-0 text-[#5DCAA5]" />
+              : <Phone className="w-4 h-4 shrink-0 text-[#5DCAA5]" />}
+            <span className="group-hover:underline underline-offset-4">{phoneLabel}</span>
+            <span aria-live="polite" className="shrink-0 text-xs text-[#5DCAA5]">
+              {feedback?.field === 'phone' ? (feedback.success ? 'Đã sao chép' : 'Không thể sao chép') : ''}
+            </span>
+          </button>
+
+          <span className="inline-flex min-h-[44px] items-center gap-2 px-1">
+            <MapPin className="w-4 h-4 shrink-0 text-[#5DCAA5]" />
+            {PERSONAL_INFO.location}
+          </span>
+        </div>
       </div>
     </section>
   );

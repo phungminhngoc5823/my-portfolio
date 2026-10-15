@@ -3352,6 +3352,14 @@
     "CRM: kiểm tra lead, phân loại và xuất dữ liệu phục vụ tracking.": [
       "CRM: checking and categorizing leads, and exporting data for tracking.",
       "CRM：核查并分类销售线索，导出数据用于跟踪分析。"
+    ],
+    "Sao chép số điện thoại": [
+      "Copy phone number",
+      "复制电话号码"
+    ],
+    "Không thể sao chép": [
+      "Unable to copy",
+      "无法复制"
     ]
   }
 }
