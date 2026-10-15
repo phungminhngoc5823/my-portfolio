@@ -251,7 +251,7 @@ export const B2BAnchor = ({
   };
 
   return (
-    <article id={`project-${project.id}`} className="flagship-case scroll-mt-28 pt-14 sm:pt-16 md:pt-20 pb-0">
+    <article id={`project-${project.id}`} className="flagship-case scroll-mt-28 pt-4 sm:pt-6 md:pt-8 pb-0">
       <div className="space-y-12 md:space-y-16">
         {/* 01 — Project overview (context merged in) */}
         <section className="space-y-7 md:space-y-8 rounded-[28px] bg-[#E6EEF7] px-5 sm:px-8 lg:px-10 py-8 sm:py-10 lg:py-12">

@@ -15,7 +15,7 @@ const projectById = (id: string) => PROJECTS.find((project) => project.id === id
 const compactIds = ['vincom-tiktok-production','seasonal-campaign-operations','area-green-leadership'];
 const compactProjects = compactIds.map(projectById).filter(Boolean);
 
-// Plain-language definitions for acronyms used across the cases (shown in a collapsible block under the section title).
+// Plain-language glossary kept after the cases to keep the section introduction compact.
 const GLOSSARY: [string, string][] = [
   ['ICP', 'hồ sơ khách hàng lý tưởng (Ideal Customer Profile).'],
   ['L1 / L2', 'hai lớp chấm điểm lead: L1 theo độ phù hợp hồ sơ doanh nghiệp, L2 bổ sung nhu cầu và tín hiệu từ Sales.'],
@@ -68,29 +68,20 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ onOpenLab }) => {
   }, [lightbox, closeLightbox]);
 
   return <section id="projects" className="bg-[#F8FAFC] border-b border-[#DCE4EE]">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-12 md:pt-14">
-      <motion.div initial={{opacity:0,y:12}} whileInView={{opacity:1,y:0}} viewport={{once:true}} className="pb-5 sm:pb-6">
-        <div className="max-w-4xl space-y-2.5">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 sm:pt-8 md:pt-9">
+      <motion.div initial={{opacity:0,y:10}} whileInView={{opacity:1,y:0}} viewport={{once:true}} className="pb-4 sm:pb-5">
+        <div className="flex flex-wrap items-end justify-between gap-x-8 gap-y-2">
           <h2 className="font-serif-title text-[30px] sm:text-4xl lg:text-5xl text-[#0F172A] leading-[1.08]">Selected Work</h2>
-          <p className="text-sm sm:text-[15px] text-[#526179] leading-relaxed">
-            Các dự án thể hiện quá trình định hướng, triển khai và đo lường. Với dự án phối hợp nhiều nhóm, kết quả chung thuộc về tập thể; phạm vi đóng góp cá nhân được ghi rõ trong từng case.
-          </p>
-          <p className="text-xs sm:text-[13px] text-[#526179] leading-relaxed">
-            <span className="font-semibold text-[#0F766E]">Gợi ý xem nhanh: case 01 và 03.</span> Số liệu tính đến 10/2026; ảnh minh chứng giữ nguyên tiếng Việt.
-          </p>
+          <span className="text-[11px] sm:text-xs text-[#64748B]">Số liệu cập nhật 10/2026 · Ảnh minh chứng gốc</span>
         </div>
-        <details className="group mt-4 max-w-4xl rounded-xl border border-[#DCE4EE] bg-white/70">
-          <summary className="cursor-pointer list-none min-h-[44px] px-4 py-2.5 flex items-center justify-between gap-3 text-xs font-semibold text-[#163B65]">
-            <span>Thuật ngữ thường gặp trong các case</span>
- <span className="text-[10px] uppercase tracking-[0.12em] text-[#526179] group-open:hidden">Mở</span>
- <span className="text-[10px] uppercase tracking-[0.12em] text-[#526179] hidden group-open:inline">Thu gọn</span>
-          </summary>
-          <dl className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-3 px-4 pb-4 pt-1 text-sm text-[#475569] leading-relaxed">
-            {GLOSSARY.map(([term, meaning]) => (
-              <div key={term}><dt className="inline font-mono-code text-xs font-semibold text-[#163B65]">{term}</dt> <dd className="inline">— {meaning}</dd></div>
-            ))}
-          </dl>
-        </details>
+        <p className="mt-3 max-w-5xl text-sm sm:text-[15px] text-[#526179] leading-relaxed">
+          Từ định hướng đến triển khai và đo lường. Với các dự án phối hợp nhiều nhóm, kết quả chung thuộc về tập thể; phần việc của tôi được ghi rõ trong từng case.
+        </p>
+        <nav aria-label="Case nên xem trước" className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-xs sm:text-[13px]">
+          <span className="font-semibold text-[#0F766E]">Nếu chỉ có vài phút:</span>
+          <a href="#project-seo-content-ads" className="inline-flex items-center min-h-8 rounded-full border border-[#CBD5E1] bg-white px-3 py-1 font-medium text-[#163B65] hover:border-[#0D9488] hover:text-[#0F766E] transition-colors">01 · B2B Funnel ↗</a>
+          <a href="#project-ai-data" className="inline-flex items-center min-h-8 rounded-full border border-[#CBD5E1] bg-white px-3 py-1 font-medium text-[#163B65] hover:border-[#0D9488] hover:text-[#0F766E] transition-colors">03 · AI & dữ liệu ↗</a>
+        </nav>
       </motion.div>
 
       <FlagshipJumpNav activeId={activeWorkId}/>
@@ -100,12 +91,24 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ onOpenLab }) => {
       <VCreatorAnchor project={projectById('v-creator')} onZoom={openZoom}/>
       <AutomationAnchor project={projectById('make-automation')} onOpenLab={onOpenLab} onZoom={openZoom}/>
 
-      <div id="more-selected-work" className="scroll-mt-24 py-20 md:py-28">
+      <div id="more-selected-work" className="scroll-mt-24 py-12 md:py-16">
         <div className="grid lg:grid-cols-12 gap-6 items-end mb-8 md:mb-10">
           <div className="lg:col-span-8 flex items-start gap-3"><div className="w-10 h-10 rounded-xl bg-[#0D9488]/10 text-[#0D9488] flex items-center justify-center shrink-0"><Layers3 className="w-5 h-5"/></div><div><h3 className="font-serif-title text-[26px] sm:text-3xl lg:text-4xl text-[#0F172A] leading-[1.1]">More Selected Work</h3></div></div>
           <p className="lg:col-span-4 lg:text-right text-xs text-[#526179]">Customer experience · Lead generation · Research · Owned Media · ESG</p>
         </div>
         <CompactCases projects={compactProjects} onOpenLab={onOpenLab} onZoom={openZoom} />
+      <details className="group mt-5 sm:mt-6 border-t border-[#DCE4EE]">
+        <summary className="cursor-pointer list-none min-h-[44px] py-3 flex items-center justify-between gap-3 text-xs font-semibold text-[#526179] hover:text-[#163B65] transition-colors">
+          <span>Thuật ngữ thường gặp trong các case</span>
+          <span className="text-[10px] uppercase tracking-[0.12em] group-open:hidden">Mở</span>
+          <span className="text-[10px] uppercase tracking-[0.12em] hidden group-open:inline">Thu gọn</span>
+        </summary>
+        <dl className="grid sm:grid-cols-2 gap-x-10 gap-y-2.5 py-3 text-sm text-[#475569] leading-relaxed">
+          {GLOSSARY.map(([term, meaning]) => (
+            <div key={term}><dt className="inline font-mono-code text-xs font-semibold text-[#163B65]">{term}</dt> <dd className="inline">— {meaning}</dd></div>
+          ))}
+        </dl>
+      </details>
       </div>
     </div>
 
